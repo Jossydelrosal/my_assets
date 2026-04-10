@@ -267,5 +267,12 @@ my_assets/
 │   ├── red_tile.png
 │   └── yellow_charge.png
 ├── sountrack/
-│   └── .gitkeep
+│   ├── Blackboard Blues.mp3
+│   ├── Classy Dinner.mp3
+│   ├── Coffe Stories.mp3
+│   ├── Dog Walker.mp3
+│   ├── Gallery Heart Loop.mp3
+│   ├── Glitter Ballpoint.mp3
+│   ├── Office Heartbeats.mp3
+│   └── Soft Save Point.mp3
 └── DIRECTORY_MAP.txt
