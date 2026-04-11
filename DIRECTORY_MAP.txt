@@ -266,13 +266,20 @@ my_assets/
 │   ├── purple_heart.png
 │   ├── red_tile.png
 │   └── yellow_charge.png
-├── sountrack/
+├── soundtrack/
+│   ├── .gitkeep
 │   ├── Blackboard Blues.mp3
+│   ├── Blue Tile Drift.mp3
 │   ├── Classy Dinner.mp3
-│   ├── Coffe Stories.mp3
+│   ├── Coffee Stories.mp3
 │   ├── Dog Walker.mp3
 │   ├── Gallery Heart Loop.mp3
 │   ├── Glitter Ballpoint.mp3
+│   ├── Green Hush Loop.mp3
+│   ├── Lunch Rush Lullaby.mp3
 │   ├── Office Heartbeats.mp3
-│   └── Soft Save Point.mp3
+│   ├── Saltlight Kisses.mp3
+│   ├── Soft Save Point.mp3
+│   ├── Street Lantern Stroll.mp3
+│   └── Sunset Sprint.mp3
 └── DIRECTORY_MAP.txt
