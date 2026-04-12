@@ -268,18 +268,26 @@ my_assets/
 │   └── yellow_charge.png
 ├── soundtrack/
 │   ├── .gitkeep
+│   ├── After-class Bounce.mp3
+│   ├── Afterglow Circuit.mp3
 │   ├── Blackboard Blues.mp3
 │   ├── Blue Tile Drift.mp3
 │   ├── Classy Dinner.mp3
 │   ├── Coffee Stories.mp3
+│   ├── Coin-Op Crush.mp3
 │   ├── Dog Walker.mp3
 │   ├── Gallery Heart Loop.mp3
 │   ├── Glitter Ballpoint.mp3
 │   ├── Green Hush Loop.mp3
 │   ├── Lunch Rush Lullaby.mp3
+│   ├── Midnight Mic Check.mp3
+│   ├── Moe Frequency.mp3
 │   ├── Office Heartbeats.mp3
+│   ├── Petal Hour.mp3
+│   ├── Rowboat Reverie.mp3
 │   ├── Saltlight Kisses.mp3
 │   ├── Soft Save Point.mp3
 │   ├── Street Lantern Stroll.mp3
-│   └── Sunset Sprint.mp3
+│   ├── Sunset Sprint.mp3
+│   └── Weekend Escalator.mp3
 └── DIRECTORY_MAP.txt
