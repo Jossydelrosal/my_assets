@@ -62,7 +62,7 @@ my_assets/
 │   │   │   ├── 8_deodorant_purple.png
 │   │   │   └── 9_vanilla_cloud.png
 │   │   ├── pins/
-│   │   │   ├── pin_ white.png
+│   │   │   ├── pin_white.png
 │   │   │   ├── pin_blue.png
 │   │   │   ├── pin_green.png
 │   │   │   ├── pin_orange.png
