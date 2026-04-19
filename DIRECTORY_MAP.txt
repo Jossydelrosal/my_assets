@@ -31,8 +31,15 @@ my_assets/
 │   └── TrainingGym.jpeg
 ├── items/
 │   ├── date_gifts/
+│   │   ├── clothing/
+│   │   │   ├── cashmere_sweater.png
+│   │   │   ├── cozy_scarf.png
+│   │   │   ├── leather_jacket.png
+│   │   │   ├── trench_coat.png
+│   │   │   └── workout_hoodie.png
 │   │   ├── flowers/
 │   │   │   ├── blue_iris.png
+│   │   │   ├── daisy.png
 │   │   │   ├── forget_me_not.png
 │   │   │   ├── orange_tulip.png
 │   │   │   ├── pink_peony.png
@@ -52,7 +59,18 @@ my_assets/
 │   │   │   ├── 5_citrus_splash.png
 │   │   │   ├── 6_peach_nectar.png
 │   │   │   ├── 7_cool_mint.png
-│   │   │   └── 8_deodorant_purple.png
+│   │   │   ├── 8_deodorant_purple.png
+│   │   │   └── 9_vanilla_cloud.png
+│   │   ├── pins/
+│   │   │   ├── pin_ white.png
+│   │   │   ├── pin_blue.png
+│   │   │   ├── pin_green.png
+│   │   │   ├── pin_orange.png
+│   │   │   ├── pin_pink.png
+│   │   │   ├── pin_purple.png
+│   │   │   ├── pin_red.png
+│   │   │   ├── pin_teal.png
+│   │   │   └── pin_yellow.png
 │   │   └── plushies/
 │   │       ├── bear_plushie.png
 │   │       ├── bunny_plushie.png
@@ -62,6 +80,7 @@ my_assets/
 │   │       ├── monkey_plushie.png
 │   │       ├── owl_plushie.png
 │   │       ├── panda_plushie.png
+│   │       ├── polar_bear_plushie.png
 │   │       ├── swan_plushie.png
 │   │       └── whale_plushie.png
 │   ├── food/
@@ -265,6 +284,7 @@ my_assets/
 │   ├── pink_heart.png
 │   ├── purple_heart.png
 │   ├── red_tile.png
+│   ├── white_tile.png
 │   └── yellow_charge.png
 ├── soundtrack/
 │   ├── .gitkeep
