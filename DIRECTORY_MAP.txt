@@ -1,6 +1,72 @@
 my_assets/
-├── Neon Love/
-│   ├── backgrounds/
+├── AntMania
+│   ├── Ant Sprites
+│   │   ├── leafcutter_egg.png
+│   │   ├── leafcutter_larva.png
+│   │   ├── leafcutter_minim.png
+│   │   ├── leafcutter_pupa.png
+│   │   ├── leafcutter_queen.png
+│   │   └── leafcutter_worker.png
+│   ├── topview_surface_tiles
+│   │   ├── 00_full_spritesheet_transparent.png
+│   │   ├── 01_grass_stalk_base_tile.png
+│   │   ├── 02_anthill_entrance_topview_tile.png
+│   │   ├── 03_water_tile_topview.png
+│   │   └── 04_grass_tile_topview.png
+│   └── underground_tunnel_tiles
+│       ├── 00_full_spritesheet_transparent.png
+│       ├── 01_anthill_entrance.png
+│       ├── 02_tunnel.png
+│       ├── 03_plain_chamber_top_left.png
+│       ├── 04_plain_chamber_top_right.png
+│       ├── 05_plain_chamber_top_left.png
+│       ├── 06_rocky_chamber_top_right.png
+│       ├── 07_plain_chamber_bottom_left.png
+│       ├── 08_plain_chamber_bottom_right.png
+│       ├── 09_rocky_chamber_bottom_left.png
+│       ├── 10_rocky_chamber_bottom_right.png
+│       ├── 11_rooty_chamber_top_left.png
+│       ├── 12_rooty_chamber_top_right.png
+│       ├── 13_fungal_chamber_top_left.png
+│       ├── 14_fungal_chamber_top_right.png
+│       ├── 15_dirt_tile.png
+│       ├── 16_rocky_dirt_tile.png
+│       ├── 17_rooty_dirt_tile.png
+│       ├── 18_rooty_chamber_bottom_left.png
+│       ├── 19_rooty_chamber_bottom_right.png
+│       ├── 20_fungal_chamber_bottom_left.png
+│       ├── 21_fungal_chamber_bottom_right.png
+│       ├── 22_water_tile.png
+│       ├── 23_grass_tile.png
+│       ├── fungus_few.png
+│       ├── fungus_pile.png
+│       ├── fungus_single.png
+│       ├── fungus_some.png
+│       ├── leaves_few.png
+│       ├── leaves_pile.png
+│       ├── leaves_single.png
+│       ├── leaves_some.png
+│       ├── pebbles_few.png
+│       ├── pebbles_pile.png
+│       ├── pebbles_single.png
+│       ├── pebbles_some.png
+│       ├── resource_piles_centered_preview_v2.png
+│       ├── resource_piles_clean_sheet.png
+│       ├── tunnel_tile_1B.png
+│       ├── tunnel_tile_1L.png
+│       ├── tunnel_tile_1R.png
+│       ├── tunnel_tile_1T.png
+│       ├── tunnel_tile_2L_B.png
+│       ├── tunnel_tile_2L_R.png
+│       ├── tunnel_tile_2R_B.png
+│       ├── tunnel_tile_2T_B.png
+│       ├── tunnel_tile_2T_R.png
+│       ├── tunnel_tile_3L_B_R.png
+│       ├── tunnel_tile_3L_T_R.png
+│       ├── tunnel_tile_4TLRB.png
+│       └── tunnel_tile_C.png
+├── Neon Love
+│   ├── backgrounds
 │   │   ├── AnimeClubroom.jpg
 │   │   ├── Arcade.jpeg
 │   │   ├── ArtGallery.jpeg
@@ -30,9 +96,9 @@ my_assets/
 │   │   ├── ShoppingMall.jpg
 │   │   ├── TrackAndField.jpg
 │   │   └── TrainingGym.jpeg
-│   ├── items/
-│   │   ├── date_gifts/
-│   │   │   ├── clothing/
+│   ├── items
+│   │   ├── date_gifts
+│   │   │   ├── clothing
 │   │   │   │   ├── athletic_windbreaker.png
 │   │   │   │   ├── cashmere_sweater.png
 │   │   │   │   ├── cozy_scarf.png
@@ -41,7 +107,7 @@ my_assets/
 │   │   │   │   ├── rose_blazer.png
 │   │   │   │   ├── trench_coat.png
 │   │   │   │   └── workout_hoodie.png
-│   │   │   ├── flowers/
+│   │   │   ├── flowers
 │   │   │   │   ├── blue_iris.png
 │   │   │   │   ├── daisy.png
 │   │   │   │   ├── forget_me_not.png
@@ -51,11 +117,11 @@ my_assets/
 │   │   │   │   ├── red_rose.png
 │   │   │   │   ├── sunflower.png
 │   │   │   │   └── white_lily.png
-│   │   │   ├── makeup/
+│   │   │   ├── makeup
 │   │   │   │   ├── eyeliner.png
 │   │   │   │   ├── lipstick.png
 │   │   │   │   └── mascara.png
-│   │   │   ├── perfumes/
+│   │   │   ├── perfumes
 │   │   │   │   ├── 1_cherry_mist.png
 │   │   │   │   ├── 2_blueberry_scent.png
 │   │   │   │   ├── 3_lime_zest.png
@@ -65,7 +131,7 @@ my_assets/
 │   │   │   │   ├── 7_cool_mint.png
 │   │   │   │   ├── 8_deodorant_purple.png
 │   │   │   │   └── 9_vanilla_cloud.png
-│   │   │   ├── pins/
+│   │   │   ├── pins
 │   │   │   │   ├── pin_blue.png
 │   │   │   │   ├── pin_green.png
 │   │   │   │   ├── pin_orange.png
@@ -75,7 +141,7 @@ my_assets/
 │   │   │   │   ├── pin_teal.png
 │   │   │   │   ├── pin_white.png
 │   │   │   │   └── pin_yellow.png
-│   │   │   └── plushies/
+│   │   │   └── plushies
 │   │   │       ├── bear_plushie.png
 │   │   │       ├── bunny_plushie.png
 │   │   │       ├── cat_plushie.png
@@ -87,200 +153,200 @@ my_assets/
 │   │   │       ├── polar_bear_plushie.png
 │   │   │       ├── swan_plushie.png
 │   │   │       └── whale_plushie.png
-│   │   ├── food/
-│   │   │   ├── american/
+│   │   ├── food
+│   │   │   ├── american
 │   │   │   │   ├── apple_pie.png
 │   │   │   │   ├── burger.png
 │   │   │   │   ├── fries.png
 │   │   │   │   ├── hot_dog.png
 │   │   │   │   └── steak.png
-│   │   │   ├── healthy/
+│   │   │   ├── healthy
 │   │   │   │   ├── fruit_bowl.png
 │   │   │   │   ├── lettuce_wrap.png
 │   │   │   │   ├── salad.png
 │   │   │   │   ├── smoothie.png
 │   │   │   │   └── yoghurt.png
-│   │   │   ├── italian/
+│   │   │   ├── italian
 │   │   │   │   ├── carbonara.png
 │   │   │   │   ├── lasagna.png
 │   │   │   │   ├── pizza_slice.png
 │   │   │   │   ├── risotto.png
 │   │   │   │   └── tiramisu.png
-│   │   │   ├── japanese/
+│   │   │   ├── japanese
 │   │   │   │   ├── matcha_cake.png
 │   │   │   │   ├── onigiri.png
 │   │   │   │   ├── ramen.png
 │   │   │   │   ├── sushi_roll.png
 │   │   │   │   └── tempura.png
-│   │   │   └── mexican/
+│   │   │   └── mexican
 │   │   │       ├── burrito.png
 │   │   │       ├── churros.png
 │   │   │       ├── nachos.png
 │   │   │       ├── quesadilla.png
 │   │   │       └── tacos.png
-│   │   └── presents/
-│   │       ├── anime/
+│   │   └── presents
+│   │       ├── anime
 │   │       │   ├── acrylic_keyring.png
 │   │       │   ├── character_plushie.png
 │   │       │   ├── manga_volume.png
 │   │       │   ├── scale_figure.png
 │   │       │   ├── sticker_pack.png
 │   │       │   └── wall_poster.png
-│   │       ├── art/
+│   │       ├── art
 │   │       │   ├── acrylic_paint_set.png
 │   │       │   ├── brush_set.png
 │   │       │   ├── canvas_board.png
 │   │       │   ├── palette_knife.png
 │   │       │   ├── pencil_set.png
 │   │       │   └── sketchbook.png
-│   │       ├── beauty/
+│   │       ├── beauty
 │   │       │   ├── compact_mirror.png
 │   │       │   ├── eyeshadow_palette.png
 │   │       │   ├── face_mask_set.png
 │   │       │   ├── luxury_lipstick.png
 │   │       │   ├── makeup_brushes.png
 │   │       │   └── nail_polish_kit.png
-│   │       ├── board_games/
+│   │       ├── board_games
 │   │       │   ├── 1000pc_puzzle.png
 │   │       │   ├── glass_chess_set.png
 │   │       │   ├── poker_deck.png
 │   │       │   ├── rpg_dice_set.png
 │   │       │   ├── strategy_board_game.png
 │   │       │   └── travel_game.png
-│   │       ├── cooking_utensils/
+│   │       ├── cooking_utensils
 │   │       │   ├── cutting_board.png
 │   │       │   ├── designer_apron.png
 │   │       │   ├── measuring_cups.png
 │   │       │   ├── pro_chef_knife.png
 │   │       │   ├── silicone_spatula_set.png
 │   │       │   └── wire_wisk.png
-│   │       ├── cosplay/
+│   │       ├── cosplay
 │   │       │   ├── cat_ear_headband.png
 │   │       │   ├── colored_contacts.png
 │   │       │   ├── face_paint_kit.png
 │   │       │   ├── prop_sword.png
 │   │       │   ├── sewing_pattern.png
 │   │       │   └── wig_cap_stand.png
-│   │       ├── dining_and_gourmet/
+│   │       ├── dining_and_gourmet
 │   │       │   ├── artisan_dessert_box.png
 │   │       │   ├── cheese_sampler.png
 │   │       │   ├── fine_dining_voucher.png
 │   │       │   ├── gourmet_sauce_trio.png
 │   │       │   ├── tasting_journal.png
 │   │       │   └── truffle_oil_set.png
-│   │       ├── do_it_yourself/
+│   │       ├── do_it_yourself
 │   │       │   ├── craft_paper_pack.png
 │   │       │   ├── glue_gun.png
 │   │       │   ├── home_tool_set.png
 │   │       │   ├── knitting_kit.png
 │   │       │   ├── sewing_kit.png
 │   │       │   └── woodworking_chisel.png
-│   │       ├── fitness/
+│   │       ├── fitness
 │   │       │   ├── fancy_gym_towel.png
 │   │       │   ├── foam_roller.png
 │   │       │   ├── resistance_bands.png
 │   │       │   ├── running_socks.png
 │   │       │   ├── stainless_steel_water_bottle.png
 │   │       │   └── yoga_mat.png
-│   │       ├── gardening/
+│   │       ├── gardening
 │   │       │   ├── gardening_gloves.png
 │   │       │   ├── hand_trowel.png
 │   │       │   ├── plant_markers.png
 │   │       │   ├── pruning_shear.png
 │   │       │   ├── rare_seeds_packet.png
 │   │       │   └── watering_can.png
-│   │       ├── hiking/
+│   │       ├── hiking
 │   │       │   ├── climbing_carabiner.png
 │   │       │   ├── led_headlamp.png
 │   │       │   ├── multitool_knife.png
 │   │       │   ├── navigation_compass.png
 │   │       │   ├── paracord_bracelet.png
 │   │       │   └── wool_hiking_socks.png
-│   │       ├── history_and_heritage/
+│   │       ├── history_and_heritage
 │   │       │   ├── antique_pocket_watch.png
 │   │       │   ├── historical_atlas.png
 │   │       │   ├── museum_postcard_set.png
 │   │       │   ├── replica_scroll.png
 │   │       │   ├── vintage_compass.png
 │   │       │   └── wax_seal_kit.png
-│   │       ├── literature/
+│   │       ├── literature
 │   │       │   ├── book_light.png
 │   │       │   ├── fountain_pen.png
 │   │       │   ├── hardcover_novel.png
 │   │       │   ├── journal.png
 │   │       │   ├── leather_bookmark.png
 │   │       │   └── reading_glasses_case.png
-│   │       ├── music/
+│   │       ├── music
 │   │       │   ├── band_t-shirt.png
 │   │       │   ├── custom_guitar_pick.png
 │   │       │   ├── drumsticks.png
 │   │       │   ├── music_sheet_stand.png
 │   │       │   ├── studio_headphones.png
 │   │       │   └── vinyl_record.png
-│   │       ├── nature/
+│   │       ├── nature
 │   │       │   ├── bird_feeder.png
 │   │       │   ├── crystal_geode.png
 │   │       │   ├── pressed_flower_frame.png
 │   │       │   ├── succulent_pot.png
 │   │       │   ├── terrarium_kit.png
 │   │       │   └── wind_chimes.png
-│   │       ├── occult/
+│   │       ├── occult
 │   │       │   ├── crystal_pendulum.png
 │   │       │   ├── grimoire_journal.png
 │   │       │   ├── incense_holder.png
 │   │       │   ├── obsidian_runes.png
 │   │       │   ├── tarot_deck.png
 │   │       │   └── velvet_cloak.png
-│   │       ├── party/
+│   │       ├── party
 │   │       │   ├── bluetooth_speaker.png
 │   │       │   ├── cocktail_shaker.png
 │   │       │   ├── disco_ball_keychain.png
 │   │       │   ├── drinking_card_game.png
 │   │       │   ├── mixology_set.png
 │   │       │   └── party_poppers.png
-│   │       ├── science_lab/
+│   │       ├── science_lab
 │   │       │   ├── crystal_growth_set.png
 │   │       │   ├── lab_notebook.png
 │   │       │   ├── mini_microscope.png
 │   │       │   ├── molecular_model_kit.png
 │   │       │   ├── periodic_table_mug.png
 │   │       │   └── telescope_cleaner.png
-│   │       ├── social_research/
+│   │       ├── social_research
 │   │       │   ├── conversation_prompt_deck.png
 │   │       │   ├── emotion_cue_cards.png
 │   │       │   ├── observation_journal.png
 │   │       │   ├── pocket_binoculars.png
 │   │       │   ├── polaroid_evidence_album.png
 │   │       │   └── urban_behavior_guide.png
-│   │       ├── sports/
+│   │       ├── sports
 │   │       │   ├── digital stopwatch.png
 │   │       │   ├── gym bag.png
 │   │       │   ├── sports cap.png
 │   │       │   ├── sweatband set.png
 │   │       │   ├── team_jersey.png
 │   │       │   └── tennis balls.png
-│   │       ├── tea/
+│   │       ├── tea
 │   │       │   ├── ceramic_tea_set.png
 │   │       │   ├── electric_kettle.png
 │   │       │   ├── honey_stick.png
 │   │       │   ├── loose_leaf_tin.png
 │   │       │   ├── matcha_whisk.png
 │   │       │   └── tea_tray.png
-│   │       ├── tech_and_gadgets/
+│   │       ├── tech_and_gadgets
 │   │       │   ├── mechanical_keyboard.png
 │   │       │   ├── power_bank.png
 │   │       │   ├── smartwatch.png
 │   │       │   ├── usb_hub_small_extra.png
 │   │       │   ├── vr_headset.png
 │   │       │   └── wireless_earbuds.png
-│   │       └── vlogging_gear/
+│   │       └── vlogging_gear
 │   │           ├── camera_lens_cleaner.png
 │   │           ├── clip_on_microphone.png
 │   │           ├── led_ring_light.png
 │   │           ├── mini_tripod.png
 │   │           ├── sd_card_case.png
 │   │           └── smart_selfie_stick.png
-│   ├── orbs/
+│   ├── orbs
 │   │   ├── blue_tile.png
 │   │   ├── cyan_star.png
 │   │   ├── green_tile.png
@@ -290,7 +356,7 @@ my_assets/
 │   │   ├── red_tile.png
 │   │   ├── white_tile.png
 │   │   └── yellow_charge.png
-│   └── soundtrack/
+│   └── soundtrack
 │       ├── .gitkeep
 │       ├── After-class Bounce.mp3
 │       ├── Afterglow Circuit.mp3
