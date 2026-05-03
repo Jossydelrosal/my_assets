@@ -12,7 +12,8 @@ my_assets/
 │   │   ├── 01_grass_stalk_base_tile.png
 │   │   ├── 02_anthill_entrance_topview_tile.png
 │   │   ├── 03_water_tile_topview.png
-│   │   └── 04_grass_tile_topview.png
+│   │   ├── 04_grass_tile_topview.png
+│   │   └── 05_dirt_tile_topview.png
 │   └── underground_tunnel_tiles
 │       ├── 00_full_spritesheet_transparent.png
 │       ├── 01_anthill_entrance.png
