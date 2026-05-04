@@ -7,6 +7,28 @@ my_assets/
 │   │   ├── leafcutter_pupa.png
 │   │   ├── leafcutter_queen.png
 │   │   └── leafcutter_worker.png
+│   ├── Plant Sideview
+│   │   ├── tile_r1_c1_sky_light_blue.png
+│   │   ├── tile_r1_c2_grass_stalk_tip.png
+│   │   ├── tile_r1_c3_sky_cloud_soft.png
+│   │   ├── tile_r1_c4_sky_wispy.png
+│   │   ├── tile_r2_c1_curving_stalk_bottom_to_right.png
+│   │   ├── tile_r2_c2_curving_stalk_left_to_top.png
+│   │   ├── tile_r2_c3_sky_small_cloud.png
+│   │   ├── tile_r2_c4_sky_wispy_variant.png
+│   │   ├── tile_r3_c1_stalk_with_leaf_stem.png
+│   │   ├── tile_r3_c2_healthy_leaf_base.png
+│   │   ├── tile_r3_c3_healthy_leaf_body.png
+│   │   ├── tile_r3_c4_healthy_leaf_tip.png
+│   │   ├── tile_r4_c1_straight_stalk.png
+│   │   ├── tile_r4_c2_bitten_leaf_base.png
+│   │   ├── tile_r4_c3_bitten_leaf_body.png
+│   │   ├── tile_r4_c4_bitten_leaf_tip.png
+│   │   ├── tile_r5_c1_stalk_from_soil.png
+│   │   ├── tile_r5_c2_soil_sky.png
+│   │   ├── tile_r5_c3_grass_sky.png
+│   │   ├── tile_r5_c4_water_sky.png
+│   │   └── Tilesheet Draft.png
 │   ├── topview_surface_tiles
 │   │   ├── 00_full_spritesheet_transparent.png
 │   │   ├── 01_grass_stalk_base_tile.png
