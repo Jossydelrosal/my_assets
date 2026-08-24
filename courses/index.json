@@ -32,22 +32,6 @@
         "grammar": 4,
         "sentences": 14
       }
-    },
-    {
-      "id": "english-unit-1-lesson-1",
-      "title": "Unit 1, Lesson 1",
-      "description": "Beginner English classroom deck for feelings and physical states using happy, sad, hot, cold, hungry, and thirsty with I'm, I'm not, and Are you...?",
-      "level": "Beginner",
-      "topic": "Feelings & states",
-      "language": "English",
-      "version": "1.0.1",
-      "path": "english-unit-1-lesson-1/course.json",
-      "tags": ["Unit 1", "Lesson 1", "kids", "feelings", "adjectives"],
-      "counts": {
-        "cards": 6,
-        "grammar": 3,
-        "sentences": 18
-      }
     }
   ]
 }
