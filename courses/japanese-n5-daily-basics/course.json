@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "course_id": "japanese-n5-daily-basics",
+  "version": "1.0.0",
+  "language": "Japanese",
+  "name": "Japanese N5 — Daily Basics",
+  "cards": [
+    { "id": "word-watashi", "target": "私", "target_furigana": "わたし", "english_word": "I; me", "definition": "The common neutral first-person pronoun.", "tags": ["N5", "person"] },
+    { "id": "word-anata", "target": "あなた", "target_furigana": "あなた", "english_word": "you", "definition": "A second-person pronoun; often omitted when the listener is clear.", "tags": ["N5", "person"] },
+    { "id": "word-tomodachi", "target": "友達", "target_furigana": "ともだち", "english_word": "friend", "definition": "A friend.", "tags": ["N5", "person"] },
+    { "id": "word-sensei", "target": "先生", "target_furigana": "せんせい", "english_word": "teacher", "definition": "Teacher; also an honorific for teachers and some professionals.", "tags": ["N5", "person"] },
+    { "id": "word-gakusei", "target": "学生", "target_furigana": "がくせい", "english_word": "student", "definition": "A student.", "tags": ["N5", "person", "school"] },
+    { "id": "word-kaishain", "target": "会社員", "target_furigana": "かいしゃいん", "english_word": "company employee", "definition": "A person who works for a company.", "tags": ["N5", "person", "work"] },
+    { "id": "word-gakkou", "target": "学校", "target_furigana": "がっこう", "english_word": "school", "definition": "A school.", "tags": ["N5", "place", "school"] },
+    { "id": "word-ie", "target": "家", "target_furigana": "いえ", "english_word": "house; home", "definition": "A house or home.", "tags": ["N5", "place"] },
+    { "id": "word-hon", "target": "本", "target_furigana": "ほん", "english_word": "book", "definition": "A book.", "tags": ["N5", "thing"] },
+    { "id": "word-mizu", "target": "水", "target_furigana": "みず", "english_word": "water", "definition": "Water.", "tags": ["N5", "food"] },
+    { "id": "word-gohan", "target": "ご飯", "target_furigana": "ごはん", "english_word": "rice; meal", "definition": "Cooked rice; by extension, a meal.", "tags": ["N5", "food"] },
+    { "id": "word-nihon", "target": "日本", "target_furigana": "にほん", "english_word": "Japan", "definition": "Japan.", "tags": ["N5", "place"] },
+    { "id": "word-nihongo", "target": "日本語", "target_furigana": "にほんご", "english_word": "Japanese language", "definition": "The Japanese language.", "tags": ["N5", "language"] },
+    { "id": "word-eigo", "target": "英語", "target_furigana": "えいご", "english_word": "English language", "definition": "The English language.", "tags": ["N5", "language"] },
+    { "id": "word-kyou", "target": "今日", "target_furigana": "きょう", "english_word": "today", "definition": "Today.", "tags": ["N5", "time"] },
+    { "id": "word-ashita", "target": "明日", "target_furigana": "あした", "english_word": "tomorrow", "definition": "Tomorrow.", "tags": ["N5", "time"] },
+    { "id": "word-iku", "target": "行く", "target_furigana": "いく", "english_word": "to go", "definition": "To go to or toward a place.", "tags": ["N5", "verb"] },
+    { "id": "word-kuru", "target": "来る", "target_furigana": "くる", "english_word": "to come", "definition": "To come toward the speaker or reference point.", "tags": ["N5", "verb"] },
+    { "id": "word-miru", "target": "見る", "target_furigana": "みる", "english_word": "to see; to watch", "definition": "To see, look at, or watch something.", "tags": ["N5", "verb"] },
+    { "id": "word-kiku", "target": "聞く", "target_furigana": "きく", "english_word": "to listen; to ask", "definition": "To listen or hear; depending on context, to ask.", "tags": ["N5", "verb"] },
+    { "id": "word-taberu", "target": "食べる", "target_furigana": "たべる", "english_word": "to eat", "definition": "To eat.", "tags": ["N5", "verb", "food"] },
+    { "id": "word-nomu", "target": "飲む", "target_furigana": "のむ", "english_word": "to drink", "definition": "To drink.", "tags": ["N5", "verb", "food"] },
+    { "id": "word-hanasu", "target": "話す", "target_furigana": "はなす", "english_word": "to speak", "definition": "To speak or talk.", "tags": ["N5", "verb"] },
+    { "id": "word-benkyousuru", "target": "勉強する", "target_furigana": "べんきょうする", "english_word": "to study", "definition": "To study.", "tags": ["N5", "verb", "school"] },
+    { "id": "word-kore", "target": "これ", "target_furigana": "これ", "english_word": "this", "definition": "This; used for something near the speaker.", "tags": ["N5", "demonstrative"] },
+    { "id": "word-yomu", "target": "読む", "target_furigana": "よむ", "english_word": "to read", "definition": "To read written material.", "tags": ["N5", "verb"] }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-wa",
+      "title": "は — topic marker",
+      "type": "particle",
+      "input": ["Noun"],
+      "structure": "Topic + は + comment",
+      "explanation": "は marks what the sentence is about. It is written は but pronounced わ when used as the topic particle.",
+      "examples": [
+        { "sentence": "私は学生です。", "translation": "I am a student.", "breakdown": ["私", "は", "学生", "です。"] },
+        { "sentence": "先生は日本語を話します。", "translation": "The teacher speaks Japanese.", "breakdown": ["先生", "は", "日本語を", "話します。"] }
+      ]
+    },
+    {
+      "id": "grammar-desu",
+      "title": "です — polite copula",
+      "type": "expression",
+      "input": ["Noun", "Na-Adjective"],
+      "structure": "Noun / Na-Adjective + です",
+      "explanation": "です is a polite sentence ending often used to state identity or description.",
+      "examples": [
+        { "sentence": "私は学生です。", "translation": "I am a student.", "breakdown": ["私は", "学生", "です。"] },
+        { "sentence": "これは本です。", "translation": "This is a book.", "breakdown": ["これは", "本", "です。"] }
+      ]
+    },
+    {
+      "id": "grammar-no",
+      "title": "の — noun connection / possession",
+      "type": "particle",
+      "input": ["Noun"],
+      "structure": "Noun A + の + Noun B",
+      "explanation": "の connects nouns. It commonly shows possession, belonging, or a descriptive relationship.",
+      "examples": [
+        { "sentence": "これは私の本です。", "translation": "This is my book.", "breakdown": ["これは", "私", "の", "本です。"] },
+        { "sentence": "日本語の本です。", "translation": "It is a Japanese-language book.", "breakdown": ["日本語", "の", "本です。"] }
+      ]
+    },
+    {
+      "id": "grammar-o",
+      "title": "を — direct object marker",
+      "type": "particle",
+      "input": ["Noun"],
+      "structure": "Object + を + Verb",
+      "explanation": "を marks the direct object of an action. It is normally pronounced お in modern Japanese.",
+      "examples": [
+        { "sentence": "水を飲みます。", "translation": "I drink water.", "breakdown": ["水", "を", "飲みます。"] },
+        { "sentence": "本を読みます。", "translation": "I read a book.", "breakdown": ["本", "を", "読みます。"] }
+      ]
+    },
+    {
+      "id": "grammar-ni",
+      "title": "に — destination / target marker",
+      "type": "particle",
+      "input": ["Noun"],
+      "structure": "Destination / target + に + Verb",
+      "explanation": "に can mark a destination or target of movement and many other relationships. This starter deck focuses on destination usage.",
+      "examples": [
+        { "sentence": "学校に行きます。", "translation": "I go to school.", "breakdown": ["学校", "に", "行きます。"] },
+        { "sentence": "友達は家に来ます。", "translation": "My friend comes to my house.", "breakdown": ["友達は", "家", "に", "来ます。"] }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sentence-01",
+      "sentence": "私は学生です。",
+      "sentence_furigana": "わたしはがくせいです。",
+      "translation": "I am a student.",
+      "breakdown": [
+        { "text": "私", "reading": "わたし", "meaning": "I" },
+        { "text": "は", "meaning": "topic marker", "grammar_note": "Marks 私 as the topic." },
+        { "text": "学生", "reading": "がくせい", "meaning": "student" },
+        { "text": "です。", "meaning": "polite copula" }
+      ],
+      "vocabulary": [
+        { "text": "私", "reading": "わたし", "meaning": "I", "card_id": "word-watashi" },
+        { "text": "学生", "reading": "がくせい", "meaning": "student", "card_id": "word-gakusei" }
+      ],
+      "grammar": [
+        { "title": "は — topic marker", "grammar_point_id": "grammar-wa" },
+        { "title": "です — polite copula", "grammar_point_id": "grammar-desu" }
+      ],
+      "tags": ["N5", "introduction"],
+      "source": { "type": "manual", "label": "Japanese N5 — Daily Basics" }
+    },
+    {
+      "id": "sentence-02",
+      "sentence": "先生は日本語を話します。",
+      "sentence_furigana": "せんせいはにほんごをはなします。",
+      "translation": "The teacher speaks Japanese.",
+      "breakdown": [
+        { "text": "先生", "reading": "せんせい", "meaning": "teacher" },
+        { "text": "は", "meaning": "topic marker" },
+        { "text": "日本語", "reading": "にほんご", "meaning": "Japanese language" },
+        { "text": "を", "meaning": "object marker" },
+        { "text": "話します。", "reading": "はなします", "meaning": "speaks" }
+      ],
+      "vocabulary": [
+        { "text": "先生", "reading": "せんせい", "meaning": "teacher", "card_id": "word-sensei" },
+        { "text": "日本語", "reading": "にほんご", "meaning": "Japanese language", "card_id": "word-nihongo" },
+        { "text": "話します", "reading": "はなします", "meaning": "speaks", "card_id": "word-hanasu" }
+      ],
+      "grammar": [
+        { "title": "は — topic marker", "grammar_point_id": "grammar-wa" },
+        { "title": "を — direct object marker", "grammar_point_id": "grammar-o" }
+      ],
+      "tags": ["N5", "language"],
+      "source": { "type": "manual", "label": "Japanese N5 — Daily Basics" }
+    },
+    {
+      "id": "sentence-03",
+      "sentence": "これは私の本です。",
+      "sentence_furigana": "これはわたしのほんです。",
+      "translation": "This is my book.",
+      "breakdown": [
+        { "text": "これ", "meaning": "this" },
+        { "text": "は", "meaning": "topic marker" },
+        { "text": "私", "reading": "わたし", "meaning": "I; me" },
+        { "text": "の", "meaning": "possession / noun connector" },
+        { "text": "本", "reading": "ほん", "meaning": "book" },
+        { "text": "です。", "meaning": "polite copula" }
+      ],
+      "vocabulary": [
+        { "text": "これ", "meaning": "this", "card_id": "word-kore" },
+        { "text": "私", "reading": "わたし", "meaning": "I; me", "card_id": "word-watashi" },
+        { "text": "本", "reading": "ほん", "meaning": "book", "card_id": "word-hon" }
+      ],
+      "grammar": [
+        { "title": "は — topic marker", "grammar_point_id": "grammar-wa" },
+        { "title": "の — noun connection / possession", "grammar_point_id": "grammar-no" },
+        { "title": "です — polite copula", "grammar_point_id": "grammar-desu" }
+      ],
+      "tags": ["N5", "possession"],
+      "source": { "type": "manual", "label": "Japanese N5 — Daily Basics" }
+    },
+    {
+      "id": "sentence-04",
+      "sentence": "水を飲みます。",
+      "sentence_furigana": "みずをのみます。",
+      "translation": "I drink water.",
+      "breakdown": [
+        { "text": "水", "reading": "みず", "meaning": "water" },
+        { "text": "を", "meaning": "object marker" },
+        { "text": "飲みます。", "reading": "のみます", "meaning": "drink" }
+      ],
+      "vocabulary": [
+        { "text": "水", "reading": "みず", "meaning": "water", "card_id": "word-mizu" },
+        { "text": "飲みます", "reading": "のみます", "meaning": "drink", "card_id": "word-nomu" }
+      ],
+      "grammar": [
+        { "title": "を — direct object marker", "grammar_point_id": "grammar-o" }
+      ],
+      "tags": ["N5", "food"],
+      "source": { "type": "manual", "label": "Japanese N5 — Daily Basics" }
+    },
+    {
+      "id": "sentence-05",
+      "sentence": "ご飯を食べます。",
+      "sentence_furigana": "ごはんをたべます。",
+      "translation": "I eat a meal.",
+      "breakdown": [
+        { "text": "ご飯", "reading": "ごはん", "meaning": "meal; rice" },
+        { "text": "を", "meaning": "object marker" },
+        { "text": "食べます。", "reading": "たべます", "meaning": "eat" }
+      ],
+      "vocabulary": [
+        { "text": "ご飯", "reading": "ごはん", "meaning": "meal; rice", "card_id": "word-gohan" },
+        { "text": "食べます", "reading": "たべます", "meaning": "eat", "card_id": "word-taberu" }
+      ],
+      "grammar": [
+        { "title": "を — direct object marker", "grammar_point_id": "grammar-o" }
+      ],
+      "tags": ["N5", "food"],
+      "source": { "type": "manual", "label": "Japanese N5 — Daily Basics" }
+    },
+    {
+      "id": "sentence-06",
+      "sentence": "学校に行きます。",
+      "sentence_furigana": "がっこうにいきます。",
+      "translation": "I go to school.",
+      "breakdown": [
+        { "text": "学校", "reading": "がっこう", "meaning": "school" },
+        { "text": "に", "meaning": "destination marker" },
+        { "text": "行きます。", "reading": "いきます", "meaning": "go" }
+      ],
+      "vocabulary": [
+        { "text": "学校", "reading": "がっこう", "meaning": "school", "card_id": "word-gakkou" },
+        { "text": "行きます", "reading": "いきます", "meaning": "go", "card_id": "word-iku" }
+      ],
+      "grammar": [
+        { "title": "に — destination / target marker", "grammar_point_id": "grammar-ni" }
+      ],
+      "tags": ["N5", "movement"],
+      "source": { "type": "manual", "label": "Japanese N5 — Daily Basics" }
+    },
+    {
+      "id": "sentence-07",
+      "sentence": "友達は家に来ます。",
+      "sentence_furigana": "ともだちはいえにきます。",
+      "translation": "My friend comes to my house.",
+      "breakdown": [
+        { "text": "友達", "reading": "ともだち", "meaning": "friend" },
+        { "text": "は", "meaning": "topic marker" },
+        { "text": "家", "reading": "いえ", "meaning": "house; home" },
+        { "text": "に", "meaning": "destination marker" },
+        { "text": "来ます。", "reading": "きます", "meaning": "comes" }
+      ],
+      "vocabulary": [
+        { "text": "友達", "reading": "ともだち", "meaning": "friend", "card_id": "word-tomodachi" },
+        { "text": "家", "reading": "いえ", "meaning": "house; home", "card_id": "word-ie" },
+        { "text": "来ます", "reading": "きます", "meaning": "comes", "card_id": "word-kuru" }
+      ],
+      "grammar": [
+        { "title": "は — topic marker", "grammar_point_id": "grammar-wa" },
+        { "title": "に — destination / target marker", "grammar_point_id": "grammar-ni" }
+      ],
+      "tags": ["N5", "movement"],
+      "source": { "type": "manual", "label": "Japanese N5 — Daily Basics" }
+    },
+    {
+      "id": "sentence-08",
+      "sentence": "今日、日本語を勉強します。",
+      "sentence_furigana": "きょう、にほんごをべんきょうします。",
+      "translation": "I study Japanese today.",
+      "breakdown": [
+        { "text": "今日、", "reading": "きょう", "meaning": "today" },
+        { "text": "日本語", "reading": "にほんご", "meaning": "Japanese language" },
+        { "text": "を", "meaning": "object marker" },
+        { "text": "勉強します。", "reading": "べんきょうします", "meaning": "study" }
+      ],
+      "vocabulary": [
+        { "text": "今日", "reading": "きょう", "meaning": "today", "card_id": "word-kyou" },
+        { "text": "日本語", "reading": "にほんご", "meaning": "Japanese language", "card_id": "word-nihongo" },
+        { "text": "勉強します", "reading": "べんきょうします", "meaning": "study", "card_id": "word-benkyousuru" }
+      ],
+      "grammar": [
+        { "title": "を — direct object marker", "grammar_point_id": "grammar-o" }
+      ],
+      "tags": ["N5", "study", "time"],
+      "source": { "type": "manual", "label": "Japanese N5 — Daily Basics" }
+    },
+    {
+      "id": "sentence-09",
+      "sentence": "英語を聞きます。",
+      "sentence_furigana": "えいごをききます。",
+      "translation": "I listen to English.",
+      "breakdown": [
+        { "text": "英語", "reading": "えいご", "meaning": "English language" },
+        { "text": "を", "meaning": "object marker" },
+        { "text": "聞きます。", "reading": "ききます", "meaning": "listen" }
+      ],
+      "vocabulary": [
+        { "text": "英語", "reading": "えいご", "meaning": "English language", "card_id": "word-eigo" },
+        { "text": "聞きます", "reading": "ききます", "meaning": "listen", "card_id": "word-kiku" }
+      ],
+      "grammar": [
+        { "title": "を — direct object marker", "grammar_point_id": "grammar-o" }
+      ],
+      "tags": ["N5", "language"],
+      "source": { "type": "manual", "label": "Japanese N5 — Daily Basics" }
+    },
+    {
+      "id": "sentence-10",
+      "sentence": "明日、本を読みます。",
+      "sentence_furigana": "あした、ほんをよみます。",
+      "translation": "I will read a book tomorrow.",
+      "breakdown": [
+        { "text": "明日、", "reading": "あした", "meaning": "tomorrow" },
+        { "text": "本", "reading": "ほん", "meaning": "book" },
+        { "text": "を", "meaning": "object marker" },
+        { "text": "読みます。", "reading": "よみます", "meaning": "read" }
+      ],
+      "vocabulary": [
+        { "text": "明日", "reading": "あした", "meaning": "tomorrow", "card_id": "word-ashita" },
+        { "text": "本", "reading": "ほん", "meaning": "book", "card_id": "word-hon" },
+        { "text": "読みます", "reading": "よみます", "meaning": "read", "card_id": "word-yomu" }
+      ],
+      "grammar": [
+        { "title": "を — direct object marker", "grammar_point_id": "grammar-o" }
+      ],
+      "tags": ["N5", "study", "time"],
+      "source": { "type": "manual", "label": "Japanese N5 — Daily Basics" }
+    }
+  ]
+}
