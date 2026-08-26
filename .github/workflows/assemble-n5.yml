@@ -5,7 +5,7 @@ on:
     branches:
       - feature/marble-courses
     paths:
-      - .tmp/n5-ready
+      - .tmp/n5-final-ready
 
 permissions:
   contents: write
@@ -20,15 +20,14 @@ jobs:
           ref: feature/marble-courses
       - name: Assemble and validate Japanese N5 Lessons 1-4
         run: |
-          cat .tmp/n5-*.b64 > /tmp/n5.b64
+          cat .tmp/course-part1.b64 .tmp/course-part2.b64 > /tmp/course.b64
+          base64 -d /tmp/course.b64 > courses/japanese-jlpt-n5/course.json
           python - <<'PY'
-          import base64, gzip, hashlib, json
-          encoded = open("/tmp/n5.b64", encoding="utf-8").read()
-          assert len(encoded) == 11344, f"Unexpected payload length: {len(encoded)}"
-          compressed = base64.b64decode(encoded, validate=True)
-          assert hashlib.sha256(compressed).hexdigest() == "ca015101a3877d476d3490ab1fc7891d11e696a28edff55a22de80f33ac4dd85"
-          payload = gzip.decompress(compressed).decode("utf-8")
-          course = json.loads(payload)
+          import json
+          course_path = "courses/japanese-jlpt-n5/course.json"
+          with open(course_path, encoding="utf-8") as f:
+              course = json.load(f)
+          assert course["schema_version"] == 1
           assert course["course_id"] == "japanese-jlpt-n5"
           assert course["version"] == "1.1.0"
           assert (len(course["cards"]), len(course["grammar"]), len(course["sentences"])) == (52, 14, 51)
@@ -51,19 +50,20 @@ jobs:
               for grammar in sentence.get("grammar", []):
                   if grammar.get("grammar_point_id"):
                       assert grammar["grammar_point_id"] in grammar_ids
-          with open("courses/japanese-jlpt-n5/course.json", "w", encoding="utf-8") as f:
-              f.write(payload)
-          path = "courses/index.json"
-          with open(path, encoding="utf-8") as f:
+          index_path = "courses/index.json"
+          with open(index_path, encoding="utf-8") as f:
               catalog = json.load(f)
+          found = False
           for entry in catalog["courses"]:
               if entry["id"] == "japanese-jlpt-n5":
+                  found = True
                   entry["description"] = "JLPT N5 course deck containing Japanese Lessons 1–4, organized by structured lesson tags for focused study."
                   entry["topic"] = "Introductions, friends, origins & classroom"
                   entry["version"] = "1.1.0"
                   entry["tags"] = ["JLPT N5", "Lesson 1", "Lesson 2", "Lesson 3", "Lesson 4", "beginner"]
                   entry["counts"] = {"cards": 52, "grammar": 14, "sentences": 51}
-          with open(path, "w", encoding="utf-8") as f:
+          assert found
+          with open(index_path, "w", encoding="utf-8") as f:
               json.dump(catalog, f, ensure_ascii=False, indent=2)
               f.write("\n")
           PY
