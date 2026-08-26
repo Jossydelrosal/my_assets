@@ -1,0 +1,3534 @@
+{
+  "schema_version": 1,
+  "course_id": "japanese-jlpt-n5",
+  "version": "1.1.0",
+  "language": "Japanese",
+  "name": "Japanese — JLPT N5",
+  "cards": [
+    {
+      "id": "word-konnichiwa",
+      "target": "こんにちは",
+      "target_furigana": "こんにちは",
+      "english_word": "hello; good afternoon",
+      "definition": "A common daytime greeting.",
+      "sentence": "こんにちは。ゆうたです。",
+      "sentence_furigana": "こんにちは。ゆうたです。",
+      "sentence_translation": "Hello. I'm Yuuta.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "greeting",
+        "phrase"
+      ]
+    },
+    {
+      "id": "word-hajimemashite",
+      "target": "はじめまして",
+      "target_furigana": "はじめまして",
+      "english_word": "nice to meet you",
+      "definition": "Used when meeting someone for the first time.",
+      "sentence": "はじめまして。よろしく。",
+      "sentence_furigana": "はじめまして。よろしく。",
+      "sentence_translation": "Nice to meet you. Pleased to meet you.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "greeting",
+        "phrase"
+      ]
+    },
+    {
+      "id": "word-yoroshiku-onegaishimasu",
+      "target": "よろしくお願いします",
+      "target_furigana": "よろしくおねがいします",
+      "english_word": "pleased to meet you; thank you in advance",
+      "definition": "A polite phrase used here at the end of an introduction.",
+      "sentence": "よろしくお願いします。",
+      "sentence_furigana": "よろしくおねがいします。",
+      "sentence_translation": "Pleased to meet you.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "greeting",
+        "phrase"
+      ]
+    },
+    {
+      "id": "word-watashi",
+      "target": "私",
+      "target_furigana": "わたし",
+      "english_word": "I; me",
+      "definition": "The neutral first-person pronoun introduced in this lesson.",
+      "sentence": "私は日本人です。",
+      "sentence_furigana": "わたしはにほんじんです。",
+      "sentence_translation": "I am Japanese.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "person"
+      ]
+    },
+    {
+      "id": "word-hai",
+      "target": "はい",
+      "target_furigana": "はい",
+      "english_word": "yes",
+      "definition": "The affirmative response used to answer a yes/no question.",
+      "sentence": "はい、日本人です。",
+      "sentence_furigana": "はい、にほんじんです。",
+      "sentence_translation": "Yes, (he) is Japanese.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "response"
+      ]
+    },
+    {
+      "id": "word-iie",
+      "target": "いいえ",
+      "target_furigana": "いいえ",
+      "english_word": "no",
+      "definition": "The negative response used to answer a yes/no question.",
+      "sentence": "いいえ、メキシコ人じゃないです。",
+      "sentence_furigana": "いいえ、メキシコじんじゃないです。",
+      "sentence_translation": "No, (he) is not Mexican.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "response"
+      ]
+    },
+    {
+      "id": "word-nihon",
+      "target": "日本",
+      "target_furigana": "にほん",
+      "english_word": "Japan",
+      "definition": "Japan.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "country",
+        "lesson:3"
+      ]
+    },
+    {
+      "id": "word-nihonjin",
+      "target": "日本人",
+      "target_furigana": "にほんじん",
+      "english_word": "Japanese person",
+      "definition": "A person from Japan; Japanese nationality.",
+      "sentence": "ゆうたさんは日本人です。",
+      "sentence_furigana": "ゆうたさんはにほんじんです。",
+      "sentence_translation": "Yuuta is Japanese.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "nationality",
+        "person"
+      ]
+    },
+    {
+      "id": "word-chuugoku",
+      "target": "中国",
+      "target_furigana": "ちゅうごく",
+      "english_word": "China",
+      "definition": "China.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "country",
+        "lesson:3"
+      ]
+    },
+    {
+      "id": "word-mekishiko",
+      "target": "メキシコ",
+      "target_furigana": "メキシコ",
+      "english_word": "Mexico",
+      "definition": "Mexico.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "country",
+        "lesson:3"
+      ]
+    },
+    {
+      "id": "word-mekishikojin",
+      "target": "メキシコ人",
+      "target_furigana": "メキシコじん",
+      "english_word": "Mexican person",
+      "definition": "A person from Mexico; Mexican nationality.",
+      "sentence": "マリアさんはメキシコ人です。",
+      "sentence_furigana": "マリアさんはメキシコじんです。",
+      "sentence_translation": "Maria is Mexican.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "nationality",
+        "person",
+        "added in 1.1"
+      ]
+    },
+    {
+      "id": "word-amerika",
+      "target": "アメリカ",
+      "target_furigana": "アメリカ",
+      "english_word": "United States; America",
+      "definition": "America; in the lesson this is used to form アメリカ人.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "country",
+        "lesson:3"
+      ]
+    },
+    {
+      "id": "word-amerikajin",
+      "target": "アメリカ人",
+      "target_furigana": "アメリカじん",
+      "english_word": "American person",
+      "definition": "A person from America; American nationality.",
+      "sentence": "私はアメリカ人じゃないです。",
+      "sentence_furigana": "わたしはアメリカじんじゃないです。",
+      "sentence_translation": "I am not American.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "nationality",
+        "person",
+        "added in 1.1"
+      ]
+    },
+    {
+      "id": "word-kankoku",
+      "target": "韓国",
+      "target_furigana": "かんこく",
+      "english_word": "South Korea",
+      "definition": "South Korea.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "country"
+      ]
+    },
+    {
+      "id": "word-kanada",
+      "target": "カナダ",
+      "target_furigana": "カナダ",
+      "english_word": "Canada",
+      "definition": "Canada.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "country"
+      ]
+    },
+    {
+      "id": "word-dokono-hito",
+      "target": "どこの人ですか",
+      "target_furigana": "どこのひとですか",
+      "english_word": "Where are you from?",
+      "definition": "The lesson's question for asking which country or place someone is from.",
+      "sentence": "マリアさんはどこの人ですか。",
+      "sentence_furigana": "マリアさんはどこのひとですか。",
+      "sentence_translation": "Where is Maria from?",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "question",
+        "phrase",
+        "lesson:3"
+      ]
+    },
+    {
+      "id": "word-kochira",
+      "target": "こちら",
+      "target_furigana": "こちら",
+      "english_word": "this person; this way; here",
+      "definition": "A polite demonstrative used in this lesson when introducing another person.",
+      "sentence": "こちらはアンナです。",
+      "sentence_furigana": "こちらはアンナです。",
+      "sentence_translation": "This is Anna.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "person",
+        "introduction"
+      ]
+    },
+    {
+      "id": "word-tomodachi",
+      "target": "友達",
+      "target_furigana": "ともだち",
+      "english_word": "friend",
+      "definition": "A friend.",
+      "sentence": "たけしはゆうたの友達です。",
+      "sentence_furigana": "たけしはゆうたのともだちです。",
+      "sentence_translation": "Takeshi is Yuuta's friend.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "person",
+        "relationship"
+      ]
+    },
+    {
+      "id": "word-kare",
+      "target": "彼",
+      "target_furigana": "かれ",
+      "english_word": "he; him",
+      "definition": "The male third-person pronoun practiced in this lesson.",
+      "sentence": "彼は学生です。",
+      "sentence_furigana": "かれはがくせいです。",
+      "sentence_translation": "He is a student.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "pronoun",
+        "person"
+      ]
+    },
+    {
+      "id": "word-kanojo",
+      "target": "彼女",
+      "target_furigana": "かのじょ",
+      "english_word": "she; her",
+      "definition": "The female third-person pronoun practiced in this lesson.",
+      "sentence": "彼女も学生です。",
+      "sentence_furigana": "かのじょもがくせいです。",
+      "sentence_translation": "She is also a student.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "pronoun",
+        "person"
+      ]
+    },
+    {
+      "id": "word-gakusei",
+      "target": "学生",
+      "target_furigana": "がくせい",
+      "english_word": "student",
+      "definition": "A student.",
+      "sentence": "アンナは学生です。",
+      "sentence_furigana": "アンナはがくせいです。",
+      "sentence_translation": "Anna is a student.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "person",
+        "school",
+        "lesson:4"
+      ]
+    },
+    {
+      "id": "word-watashitachi",
+      "target": "私たち",
+      "target_furigana": "わたしたち",
+      "english_word": "we; us",
+      "definition": "The plural/group form built from 私 + たち in this lesson.",
+      "sentence": "私たちはメキシコ人です。",
+      "sentence_furigana": "わたしたちはメキシコじんです。",
+      "sentence_translation": "We are Mexican.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "pronoun",
+        "group"
+      ]
+    },
+    {
+      "id": "word-dare",
+      "target": "誰",
+      "target_furigana": "だれ",
+      "english_word": "who",
+      "definition": "The question word 'who', used here in だれの to ask whose friend someone is.",
+      "sentence": "たけしは誰の友達ですか。",
+      "sentence_furigana": "たけしはだれのともだちですか。",
+      "sentence_translation": "Whose friend is Takeshi?",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "question",
+        "lesson:4"
+      ]
+    },
+    {
+      "id": "word-otoko-no-hito",
+      "target": "男の人",
+      "target_furigana": "おとこのひと",
+      "english_word": "man; male person",
+      "definition": "The expression used in the lesson practice to describe Takeshi as a male person.",
+      "sentence": "たけしは男の人です。",
+      "sentence_furigana": "たけしはおとこのひとです。",
+      "sentence_translation": "Takeshi is a man.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "person",
+        "added in 1.1"
+      ]
+    },
+    {
+      "id": "word-onna-no-hito",
+      "target": "女の人",
+      "target_furigana": "おんなのひと",
+      "english_word": "woman; female person",
+      "definition": "The expression used in the lesson practice to describe Anna as a female person.",
+      "sentence": "アンナは女の人です。",
+      "sentence_furigana": "アンナはおんなのひとです。",
+      "sentence_translation": "Anna is a woman.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "person",
+        "added in 1.1"
+      ]
+    },
+    {
+      "id": "word-shusshin",
+      "target": "出身",
+      "target_furigana": "しゅっしん",
+      "english_word": "hometown; place of origin",
+      "definition": "The place someone is from.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "origin"
+      ],
+      "sentence": "マリアさんはグアダラハラ出身です。",
+      "sentence_furigana": "マリアさんはグアダラハラしゅっしんです。",
+      "sentence_translation": "Maria is from Guadalajara."
+    },
+    {
+      "id": "word-doko",
+      "target": "どこ",
+      "target_furigana": "どこ",
+      "english_word": "where",
+      "definition": "A question word asking about a place.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "question",
+        "place"
+      ],
+      "sentence": "シドニーはどこにありますか。",
+      "sentence_furigana": "シドニーはどこにありますか。",
+      "sentence_translation": "Where is Sydney?"
+    },
+    {
+      "id": "word-guadalajara",
+      "target": "グアダラハラ",
+      "target_furigana": "グアダラハラ",
+      "english_word": "Guadalajara",
+      "definition": "Guadalajara, Maria's hometown in the lesson.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "city"
+      ],
+      "sentence": "グアダラハラはメキシコにあります。",
+      "sentence_furigana": "グアダラハラはメキシコにあります。",
+      "sentence_translation": "Guadalajara is in Mexico."
+    },
+    {
+      "id": "word-sydney",
+      "target": "シドニー",
+      "target_furigana": "シドニー",
+      "english_word": "Sydney",
+      "definition": "Sydney, Anna's hometown in the lesson.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "city"
+      ],
+      "sentence": "シドニーはオーストラリアにあります。",
+      "sentence_furigana": "シドニーはオーストラリアにあります。",
+      "sentence_translation": "Sydney is in Australia."
+    },
+    {
+      "id": "word-australia",
+      "target": "オーストラリア",
+      "target_furigana": "オーストラリア",
+      "english_word": "Australia",
+      "definition": "Australia.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "country"
+      ],
+      "sentence": "シドニーはオーストラリアにあります。",
+      "sentence_furigana": "シドニーはオーストラリアにあります。",
+      "sentence_translation": "Sydney is in Australia."
+    },
+    {
+      "id": "word-tokyo",
+      "target": "東京",
+      "target_furigana": "とうきょう",
+      "english_word": "Tokyo",
+      "definition": "Tokyo.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "city"
+      ],
+      "sentence": "東京は日本にあります。",
+      "sentence_furigana": "とうきょうはにほんにあります。",
+      "sentence_translation": "Tokyo is in Japan."
+    },
+    {
+      "id": "word-paris",
+      "target": "パリ",
+      "target_furigana": "パリ",
+      "english_word": "Paris",
+      "definition": "Paris.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "city"
+      ]
+    },
+    {
+      "id": "word-rome",
+      "target": "ローマ",
+      "target_furigana": "ローマ",
+      "english_word": "Rome",
+      "definition": "Rome.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "city"
+      ]
+    },
+    {
+      "id": "word-shanghai",
+      "target": "上海",
+      "target_furigana": "しゃんはい",
+      "english_word": "Shanghai",
+      "definition": "Shanghai.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "city"
+      ]
+    },
+    {
+      "id": "word-kyoto",
+      "target": "京都",
+      "target_furigana": "きょうと",
+      "english_word": "Kyoto",
+      "definition": "Kyoto.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "city"
+      ]
+    },
+    {
+      "id": "word-london",
+      "target": "ロンドン",
+      "target_furigana": "ロンドン",
+      "english_word": "London",
+      "definition": "London.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "city"
+      ]
+    },
+    {
+      "id": "word-new-york",
+      "target": "ニューヨーク",
+      "target_furigana": "ニューヨーク",
+      "english_word": "New York",
+      "definition": "New York.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "city"
+      ]
+    },
+    {
+      "id": "word-uk",
+      "target": "イギリス",
+      "target_furigana": "イギリス",
+      "english_word": "United Kingdom; Britain",
+      "definition": "The United Kingdom / Britain.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "country"
+      ]
+    },
+    {
+      "id": "word-italy",
+      "target": "イタリア",
+      "target_furigana": "イタリア",
+      "english_word": "Italy",
+      "definition": "Italy.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "country"
+      ]
+    },
+    {
+      "id": "word-france",
+      "target": "フランス",
+      "target_furigana": "フランス",
+      "english_word": "France",
+      "definition": "France.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "country"
+      ]
+    },
+    {
+      "id": "word-kyoushitsu",
+      "target": "教室",
+      "target_furigana": "きょうしつ",
+      "english_word": "classroom",
+      "definition": "A classroom.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "school",
+        "place"
+      ],
+      "sentence": "教室に机があります。",
+      "sentence_furigana": "きょうしつにつくえがあります。",
+      "sentence_translation": "There is a desk in the classroom."
+    },
+    {
+      "id": "word-tsukue",
+      "target": "机",
+      "target_furigana": "つくえ",
+      "english_word": "desk",
+      "definition": "A desk.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "object"
+      ],
+      "sentence": "机があります。",
+      "sentence_furigana": "つくえがあります。",
+      "sentence_translation": "There is a desk."
+    },
+    {
+      "id": "word-isu",
+      "target": "いす",
+      "target_furigana": "いす",
+      "english_word": "chair",
+      "definition": "A chair.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "object"
+      ],
+      "sentence": "いすもあります。",
+      "sentence_furigana": "いすもあります。",
+      "sentence_translation": "There is also a chair."
+    },
+    {
+      "id": "word-kaban",
+      "target": "かばん",
+      "target_furigana": "かばん",
+      "english_word": "bag",
+      "definition": "A bag.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "object"
+      ],
+      "sentence": "かばんがあります。",
+      "sentence_furigana": "かばんがあります。",
+      "sentence_translation": "There is a bag."
+    },
+    {
+      "id": "word-hon",
+      "target": "本",
+      "target_furigana": "ほん",
+      "english_word": "book",
+      "definition": "A book.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "object"
+      ],
+      "sentence": "本があります。",
+      "sentence_furigana": "ほんがあります。",
+      "sentence_translation": "There is a book."
+    },
+    {
+      "id": "word-terebi",
+      "target": "テレビ",
+      "target_furigana": "テレビ",
+      "english_word": "television; TV",
+      "definition": "A television.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "object"
+      ],
+      "sentence": "教室にテレビがありません。",
+      "sentence_furigana": "きょうしつにテレビがありません。",
+      "sentence_translation": "There is no TV in the classroom."
+    },
+    {
+      "id": "word-e",
+      "target": "絵",
+      "target_furigana": "え",
+      "english_word": "picture; drawing",
+      "definition": "A picture or drawing.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "object"
+      ],
+      "sentence": "教室に絵がありません。",
+      "sentence_furigana": "きょうしつにえがありません。",
+      "sentence_translation": "There is no picture in the classroom."
+    },
+    {
+      "id": "word-sensei",
+      "target": "先生",
+      "target_furigana": "せんせい",
+      "english_word": "teacher",
+      "definition": "A teacher.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "school",
+        "person"
+      ],
+      "sentence": "先生がいます。",
+      "sentence_furigana": "せんせいがいます。",
+      "sentence_translation": "There is a teacher."
+    },
+    {
+      "id": "word-italian-person",
+      "target": "イタリア人",
+      "target_furigana": "イタリアじん",
+      "english_word": "Italian person",
+      "definition": "A person from Italy.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "nationality",
+        "person"
+      ]
+    },
+    {
+      "id": "word-british-person",
+      "target": "イギリス人",
+      "target_furigana": "イギリスじん",
+      "english_word": "British person",
+      "definition": "A person from Britain / the United Kingdom.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "nationality",
+        "person"
+      ]
+    },
+    {
+      "id": "word-australian-person",
+      "target": "オーストラリア人",
+      "target_furigana": "オーストラリアじん",
+      "english_word": "Australian person",
+      "definition": "A person from Australia.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "nationality",
+        "person"
+      ]
+    },
+    {
+      "id": "word-nani",
+      "target": "何",
+      "target_furigana": "なに",
+      "english_word": "what",
+      "definition": "The question word 'what'.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "question"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-a-wa-b-desu",
+      "title": "A は B です — polite identification",
+      "type": "expression",
+      "input": [
+        "Noun"
+      ],
+      "structure": "A + は + B + です",
+      "explanation": "Use A は B です to identify or describe A as B. In this lesson it is used for names and nationalities. は marks the topic and is pronounced わ as a particle.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1"
+      ],
+      "examples": [
+        {
+          "sentence": "私はゆうたです。",
+          "translation": "I am Yuuta.",
+          "breakdown": [
+            "私",
+            "は",
+            "ゆうた",
+            "です。"
+          ]
+        },
+        {
+          "sentence": "私はマリアです。",
+          "translation": "I am Maria.",
+          "breakdown": [
+            "私",
+            "は",
+            "マリア",
+            "です。"
+          ]
+        },
+        {
+          "sentence": "私は日本人です。",
+          "translation": "I am Japanese.",
+          "breakdown": [
+            "私",
+            "は",
+            "日本人",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-a-wa-b-janai-desu",
+      "title": "A は B じゃないです — polite negative identification",
+      "type": "expression",
+      "input": [
+        "Noun"
+      ],
+      "structure": "A + は + B + じゃないです",
+      "explanation": "Use A は B じゃないです to say politely that A is not B. The lesson practices this with nationalities.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1"
+      ],
+      "examples": [
+        {
+          "sentence": "ゆうたさんはメキシコ人じゃないです。",
+          "translation": "Yuuta is not Mexican.",
+          "breakdown": [
+            "ゆうたさん",
+            "は",
+            "メキシコ人",
+            "じゃないです。"
+          ]
+        },
+        {
+          "sentence": "マリアさんは日本人じゃないです。",
+          "translation": "Maria is not Japanese.",
+          "breakdown": [
+            "マリアさん",
+            "は",
+            "日本人",
+            "じゃないです。"
+          ]
+        },
+        {
+          "sentence": "私はアメリカ人じゃないです。",
+          "translation": "I am not American.",
+          "breakdown": [
+            "私",
+            "は",
+            "アメリカ人",
+            "じゃないです。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-desu-ka",
+      "title": "〜ですか — polite questions",
+      "type": "expression",
+      "input": [
+        "Noun"
+      ],
+      "structure": "Statement + か",
+      "explanation": "Add か to a polite です statement to ask a question. The lesson practices yes/no answers and a choice pattern such as A ですか、B ですか.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1"
+      ],
+      "examples": [
+        {
+          "sentence": "ゆうたさんは日本人ですか。",
+          "translation": "Is Yuuta Japanese?",
+          "breakdown": [
+            "ゆうたさん",
+            "は",
+            "日本人",
+            "ですか。"
+          ]
+        },
+        {
+          "sentence": "ゆうたさんはメキシコ人ですか。",
+          "translation": "Is Yuuta Mexican?",
+          "breakdown": [
+            "ゆうたさん",
+            "は",
+            "メキシコ人",
+            "ですか。"
+          ]
+        },
+        {
+          "sentence": "ゆうたさんは日本人ですか、アメリカ人ですか。",
+          "translation": "Is Yuuta Japanese or American?",
+          "breakdown": [
+            "ゆうたさん",
+            "は",
+            "日本人",
+            "ですか、",
+            "アメリカ人",
+            "ですか。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-dokono-hito",
+      "title": "どこの人ですか — asking where someone is from",
+      "type": "expression",
+      "input": [
+        "Noun"
+      ],
+      "structure": "Person + は + どこの人 + ですか",
+      "explanation": "Use どこの人ですか to ask what country or place someone is from. The lesson answers with a nationality, for example メキシコ人です.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1"
+      ],
+      "examples": [
+        {
+          "sentence": "マリアさんはどこの人ですか。",
+          "translation": "Where is Maria from?",
+          "breakdown": [
+            "マリアさん",
+            "は",
+            "どこの人",
+            "ですか。"
+          ]
+        },
+        {
+          "sentence": "メキシコ人です。",
+          "translation": "She is Mexican.",
+          "breakdown": [
+            "メキシコ人",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-a-no-b",
+      "title": "A の B — noun relationship / possession",
+      "type": "particle",
+      "input": [
+        "Noun"
+      ],
+      "structure": "A + の + B",
+      "explanation": "の connects two nouns. In this lesson it identifies relationships such as whose friend someone is: ゆうたの友達 means 'Yuuta's friend'.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2"
+      ],
+      "examples": [
+        {
+          "sentence": "たけしはゆうたの友達です。",
+          "translation": "Takeshi is Yuuta's friend.",
+          "breakdown": [
+            "たけし",
+            "は",
+            "ゆうた",
+            "の",
+            "友達",
+            "です。"
+          ]
+        },
+        {
+          "sentence": "アンナはマリアの友達です。",
+          "translation": "Anna is Maria's friend.",
+          "breakdown": [
+            "アンナ",
+            "は",
+            "マリア",
+            "の",
+            "友達",
+            "です。"
+          ]
+        },
+        {
+          "sentence": "こちらは私の友達です。",
+          "translation": "This is my friend.",
+          "breakdown": [
+            "こちら",
+            "は",
+            "私",
+            "の",
+            "友達",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-mo",
+      "title": "も — also / too",
+      "type": "particle",
+      "input": [
+        "Noun"
+      ],
+      "structure": "A + も + B + です",
+      "explanation": "も marks that the same statement also applies to A. The lesson uses it for shared status and nationality.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2"
+      ],
+      "examples": [
+        {
+          "sentence": "彼女も学生です。",
+          "translation": "She is also a student.",
+          "breakdown": [
+            "彼女",
+            "も",
+            "学生",
+            "です。"
+          ]
+        },
+        {
+          "sentence": "たけしも日本人です。",
+          "translation": "Takeshi is also Japanese.",
+          "breakdown": [
+            "たけし",
+            "も",
+            "日本人",
+            "です。"
+          ]
+        },
+        {
+          "sentence": "私もメキシコ人です。",
+          "translation": "I am also Mexican.",
+          "breakdown": [
+            "私",
+            "も",
+            "メキシコ人",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-tachi",
+      "title": "～たち — making a group",
+      "type": "expression",
+      "input": [
+        "Noun"
+      ],
+      "structure": "Person / pronoun + たち",
+      "explanation": "Attach たち to a person word or pronoun to refer to that person and their group. The lesson builds 私たち, 彼たち, and 彼女たち.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2"
+      ],
+      "examples": [
+        {
+          "sentence": "私たちはメキシコ人です。",
+          "translation": "We are Mexican.",
+          "breakdown": [
+            "私",
+            "たち",
+            "は",
+            "メキシコ人",
+            "です。"
+          ]
+        },
+        {
+          "sentence": "彼たちはメキシコ人です。",
+          "translation": "They are Mexican.",
+          "breakdown": [
+            "彼",
+            "たち",
+            "は",
+            "メキシコ人",
+            "です。"
+          ]
+        },
+        {
+          "sentence": "彼女たち",
+          "translation": "They / those women",
+          "breakdown": [
+            "彼女",
+            "たち"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-dare-no",
+      "title": "だれの B ですか — asking whose",
+      "type": "expression",
+      "input": [
+        "Noun"
+      ],
+      "structure": "Person + は + だれ + の + B + ですか",
+      "explanation": "Use だれの before a noun to ask who that noun is connected to or belongs to. The lesson asks たけしはだれの友達ですか and answers ゆうたの友達です.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2"
+      ],
+      "examples": [
+        {
+          "sentence": "たけしはだれの友達ですか。",
+          "translation": "Whose friend is Takeshi?",
+          "breakdown": [
+            "たけし",
+            "は",
+            "だれ",
+            "の",
+            "友達",
+            "ですか。"
+          ]
+        },
+        {
+          "sentence": "ゆうたの友達です。",
+          "translation": "He is Yuuta's friend.",
+          "breakdown": [
+            "ゆうた",
+            "の",
+            "友達",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-shusshin-desu",
+      "title": "～出身です — saying where someone is from",
+      "type": "expression",
+      "input": [
+        "Noun"
+      ],
+      "structure": "Place + 出身 + です",
+      "explanation": "Use 出身です to state someone's hometown or place of origin.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3"
+      ],
+      "examples": [
+        {
+          "sentence": "グアダラハラ出身です。",
+          "translation": "I'm from Guadalajara.",
+          "breakdown": [
+            "グアダラハラ",
+            "出身",
+            "です。"
+          ]
+        },
+        {
+          "sentence": "東京出身じゃないです。",
+          "translation": "I'm not from Tokyo.",
+          "breakdown": [
+            "東京",
+            "出身",
+            "じゃないです。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-place-ni-arimasu",
+      "title": "A は B に あります — locating a place",
+      "type": "expression",
+      "input": [
+        "Noun"
+      ],
+      "structure": "A + は + B + に + あります",
+      "explanation": "Use にあります to say where a place is located.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3"
+      ],
+      "examples": [
+        {
+          "sentence": "グアダラハラはメキシコにあります。",
+          "translation": "Guadalajara is in Mexico.",
+          "breakdown": [
+            "グアダラハラ",
+            "は",
+            "メキシコ",
+            "に",
+            "あります。"
+          ]
+        },
+        {
+          "sentence": "東京は日本にあります。",
+          "translation": "Tokyo is in Japan.",
+          "breakdown": [
+            "東京",
+            "は",
+            "日本",
+            "に",
+            "あります。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-dokono-shusshin",
+      "title": "どこの出身ですか — asking someone's origin",
+      "type": "expression",
+      "input": [
+        "Noun"
+      ],
+      "structure": "Person + は + どこの + 出身 + ですか",
+      "explanation": "Use どこの出身ですか to ask where someone is from.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3"
+      ],
+      "examples": [
+        {
+          "sentence": "マリアさんはどこの出身ですか。",
+          "translation": "Where is Maria from?",
+          "breakdown": [
+            "マリアさん",
+            "は",
+            "どこの",
+            "出身",
+            "ですか。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-place-ni-thing-ga-arimasu",
+      "title": "Place に Thing が あります — saying something exists",
+      "type": "expression",
+      "input": [
+        "Noun"
+      ],
+      "structure": "Place + に + Thing + が + あります",
+      "explanation": "Use あります for inanimate things. ありません is the negative form; も can mean 'also'.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4"
+      ],
+      "examples": [
+        {
+          "sentence": "教室に机があります。",
+          "translation": "There is a desk in the classroom.",
+          "breakdown": [
+            "教室",
+            "に",
+            "机",
+            "が",
+            "あります。"
+          ]
+        },
+        {
+          "sentence": "教室にテレビがありません。",
+          "translation": "There is no TV in the classroom.",
+          "breakdown": [
+            "教室",
+            "に",
+            "テレビ",
+            "が",
+            "ありません。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-place-ni-person-ga-imasu",
+      "title": "Place に Person が います — saying someone exists/is present",
+      "type": "expression",
+      "input": [
+        "Noun"
+      ],
+      "structure": "Place + に + Person + が + います",
+      "explanation": "Use います for people and other animate beings. いません is the negative form; も can mean 'also'.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4"
+      ],
+      "examples": [
+        {
+          "sentence": "教室に学生がいます。",
+          "translation": "There is a student in the classroom.",
+          "breakdown": [
+            "教室",
+            "に",
+            "学生",
+            "が",
+            "います。"
+          ]
+        },
+        {
+          "sentence": "教室に先生がいません。",
+          "translation": "There is no teacher in the classroom.",
+          "breakdown": [
+            "教室",
+            "に",
+            "先生",
+            "が",
+            "いません。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grammar-nani-dare-ga",
+      "title": "何が / 誰が — asking what or who is there",
+      "type": "expression",
+      "input": [
+        "Noun"
+      ],
+      "structure": "Place + に + 何 / 誰 + が + あります / います + か",
+      "explanation": "Use 何が with あります to ask what is present, and 誰が with います to ask who is present.",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4"
+      ],
+      "examples": [
+        {
+          "sentence": "教室に何がありますか。",
+          "translation": "What is in the classroom?",
+          "breakdown": [
+            "教室",
+            "に",
+            "何",
+            "が",
+            "ありますか。"
+          ]
+        },
+        {
+          "sentence": "教室に誰がいますか。",
+          "translation": "Who is in the classroom?",
+          "breakdown": [
+            "教室",
+            "に",
+            "誰",
+            "が",
+            "いますか。"
+          ]
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sentence-intro-yuuta",
+      "sentence": "こんにちは。ゆうたです。",
+      "sentence_furigana": "こんにちは。ゆうたです。",
+      "translation": "Hello. I'm Yuuta.",
+      "breakdown": [
+        {
+          "text": "こんにちは。",
+          "meaning": "hello"
+        },
+        {
+          "text": "ゆうた",
+          "meaning": "Yuuta"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "こんにちは",
+          "meaning": "hello",
+          "card_id": "word-konnichiwa"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B です — polite identification",
+          "grammar_point_id": "grammar-a-wa-b-desu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "introduction"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 1"
+      }
+    },
+    {
+      "id": "sentence-watashi-nihonjin",
+      "sentence": "私は日本人です。",
+      "sentence_furigana": "わたしはにほんじんです。",
+      "translation": "I am Japanese.",
+      "breakdown": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "meaning": "I"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "meaning": "I",
+          "card_id": "word-watashi"
+        },
+        {
+          "text": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person",
+          "card_id": "word-nihonjin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B です — polite identification",
+          "grammar_point_id": "grammar-a-wa-b-desu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "nationality"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 1"
+      }
+    },
+    {
+      "id": "sentence-yuuta-not-mexican",
+      "sentence": "ゆうたさんはメキシコ人じゃないです。",
+      "sentence_furigana": "ゆうたさんはメキシコじんじゃないです。",
+      "translation": "Yuuta is not Mexican.",
+      "breakdown": [
+        {
+          "text": "ゆうたさん",
+          "meaning": "Yuuta"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "メキシコ人",
+          "reading": "メキシコじん",
+          "meaning": "Mexican person"
+        },
+        {
+          "text": "じゃないです。",
+          "meaning": "is not"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "メキシコ人",
+          "reading": "メキシコじん",
+          "meaning": "Mexican person",
+          "card_id": "word-mekishikojin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B じゃないです — polite negative identification",
+          "grammar_point_id": "grammar-a-wa-b-janai-desu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "negative",
+        "nationality"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 1"
+      }
+    },
+    {
+      "id": "sentence-maria-not-japanese",
+      "sentence": "マリアさんは日本人じゃないです。",
+      "sentence_furigana": "マリアさんはにほんじんじゃないです。",
+      "translation": "Maria is not Japanese.",
+      "breakdown": [
+        {
+          "text": "マリアさん",
+          "meaning": "Maria"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person"
+        },
+        {
+          "text": "じゃないです。",
+          "meaning": "is not"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person",
+          "card_id": "word-nihonjin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B じゃないです — polite negative identification",
+          "grammar_point_id": "grammar-a-wa-b-janai-desu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "negative",
+        "nationality"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 1"
+      }
+    },
+    {
+      "id": "sentence-yuuta-japanese-question",
+      "sentence": "ゆうたさんは日本人ですか。",
+      "sentence_furigana": "ゆうたさんはにほんじんですか。",
+      "translation": "Is Yuuta Japanese?",
+      "breakdown": [
+        {
+          "text": "ゆうたさん",
+          "meaning": "Yuuta"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person"
+        },
+        {
+          "text": "ですか。",
+          "meaning": "polite question ending"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person",
+          "card_id": "word-nihonjin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "〜ですか — polite questions",
+          "grammar_point_id": "grammar-desu-ka"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "question",
+        "nationality"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 1"
+      }
+    },
+    {
+      "id": "sentence-hai-nihonjin",
+      "sentence": "はい、日本人です。",
+      "sentence_furigana": "はい、にほんじんです。",
+      "translation": "Yes, (he) is Japanese.",
+      "breakdown": [
+        {
+          "text": "はい、",
+          "meaning": "yes"
+        },
+        {
+          "text": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "はい",
+          "meaning": "yes",
+          "card_id": "word-hai"
+        },
+        {
+          "text": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person",
+          "card_id": "word-nihonjin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B です — polite identification",
+          "grammar_point_id": "grammar-a-wa-b-desu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "response",
+        "nationality",
+        "revised in 1.1"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 1"
+      }
+    },
+    {
+      "id": "sentence-choice-question",
+      "sentence": "ゆうたさんは日本人ですか、アメリカ人ですか。",
+      "sentence_furigana": "ゆうたさんはにほんじんですか、アメリカじんですか。",
+      "translation": "Is Yuuta Japanese or American?",
+      "breakdown": [
+        {
+          "text": "ゆうたさん",
+          "meaning": "Yuuta"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person"
+        },
+        {
+          "text": "ですか、",
+          "meaning": "is ...?"
+        },
+        {
+          "text": "アメリカ人",
+          "reading": "アメリカじん",
+          "meaning": "American person"
+        },
+        {
+          "text": "ですか。",
+          "meaning": "or is ...?"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person",
+          "card_id": "word-nihonjin"
+        },
+        {
+          "text": "アメリカ人",
+          "reading": "アメリカじん",
+          "meaning": "American person",
+          "card_id": "word-amerikajin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "〜ですか — polite questions",
+          "grammar_point_id": "grammar-desu-ka"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "question",
+        "choice"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 1"
+      }
+    },
+    {
+      "id": "sentence-maria-origin-question",
+      "sentence": "マリアさんはどこの人ですか。",
+      "sentence_furigana": "マリアさんはどこのひとですか。",
+      "translation": "Where is Maria from?",
+      "breakdown": [
+        {
+          "text": "マリアさん",
+          "meaning": "Maria"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "どこの人",
+          "reading": "どこのひと",
+          "meaning": "person from where"
+        },
+        {
+          "text": "ですか。",
+          "meaning": "polite question"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "どこの人ですか",
+          "reading": "どこのひとですか",
+          "meaning": "Where are you/from where?",
+          "card_id": "word-dokono-hito"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "どこの人ですか — asking where someone is from",
+          "grammar_point_id": "grammar-dokono-hito"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "question",
+        "origin"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 1"
+      }
+    },
+    {
+      "id": "sentence-mexican-answer",
+      "sentence": "メキシコ人です。",
+      "sentence_furigana": "メキシコじんです。",
+      "translation": "(She) is Mexican.",
+      "breakdown": [
+        {
+          "text": "メキシコ人",
+          "reading": "メキシコじん",
+          "meaning": "Mexican person"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "メキシコ人",
+          "reading": "メキシコじん",
+          "meaning": "Mexican person",
+          "card_id": "word-mekishikojin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B です — polite identification",
+          "grammar_point_id": "grammar-a-wa-b-desu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "response",
+        "origin"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 1"
+      }
+    },
+    {
+      "id": "sentence-yuuta-mexican-question",
+      "sentence": "ゆうたさんはメキシコ人ですか。",
+      "sentence_furigana": "ゆうたさんはメキシコじんですか。",
+      "translation": "Is Yuuta Mexican?",
+      "breakdown": [
+        {
+          "text": "ゆうたさん",
+          "meaning": "Yuuta"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "メキシコ人",
+          "reading": "メキシコじん",
+          "meaning": "Mexican person"
+        },
+        {
+          "text": "ですか。",
+          "meaning": "polite question ending"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "メキシコ人",
+          "reading": "メキシコじん",
+          "meaning": "Mexican person",
+          "card_id": "word-mekishikojin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "〜ですか — polite questions",
+          "grammar_point_id": "grammar-desu-ka"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "question",
+        "nationality",
+        "added in 1.1"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 1"
+      }
+    },
+    {
+      "id": "sentence-iie-not-mexican",
+      "sentence": "いいえ、メキシコ人じゃないです。",
+      "sentence_furigana": "いいえ、メキシコじんじゃないです。",
+      "translation": "No, (he) is not Mexican.",
+      "breakdown": [
+        {
+          "text": "いいえ、",
+          "meaning": "no"
+        },
+        {
+          "text": "メキシコ人",
+          "reading": "メキシコじん",
+          "meaning": "Mexican person"
+        },
+        {
+          "text": "じゃないです。",
+          "meaning": "is not"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "いいえ",
+          "meaning": "no",
+          "card_id": "word-iie"
+        },
+        {
+          "text": "メキシコ人",
+          "reading": "メキシコじん",
+          "meaning": "Mexican person",
+          "card_id": "word-mekishikojin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B じゃないです — polite negative identification",
+          "grammar_point_id": "grammar-a-wa-b-janai-desu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "response",
+        "negative",
+        "added in 1.1"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 1"
+      }
+    },
+    {
+      "id": "sentence-kochira-takeshi",
+      "sentence": "こちらはたけしです。",
+      "sentence_furigana": "こちらはたけしです。",
+      "translation": "This is Takeshi.",
+      "breakdown": [
+        {
+          "text": "こちら",
+          "meaning": "this person",
+          "role": "introduction"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "たけし",
+          "meaning": "Takeshi"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "こちら",
+          "meaning": "this person",
+          "card_id": "word-kochira"
+        }
+      ],
+      "grammar": [],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "introduction"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-watashi-no-tomodachi",
+      "sentence": "私の友達です。",
+      "sentence_furigana": "わたしのともだちです。",
+      "translation": "(He/She) is my friend.",
+      "breakdown": [
+        {
+          "text": "私",
+          "reading": "わたし",
+          "meaning": "I / me"
+        },
+        {
+          "text": "の",
+          "meaning": "noun relationship"
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend",
+          "card_id": "word-tomodachi"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A の B — noun relationship / possession",
+          "grammar_point_id": "grammar-a-no-b"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "relationship"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-kare-gakusei",
+      "sentence": "彼は学生です。",
+      "sentence_furigana": "かれはがくせいです。",
+      "translation": "He is a student.",
+      "breakdown": [
+        {
+          "text": "彼",
+          "reading": "かれ",
+          "meaning": "he"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "学生",
+          "reading": "がくせい",
+          "meaning": "student"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "彼",
+          "reading": "かれ",
+          "meaning": "he",
+          "card_id": "word-kare"
+        },
+        {
+          "text": "学生",
+          "reading": "がくせい",
+          "meaning": "student",
+          "card_id": "word-gakusei"
+        }
+      ],
+      "grammar": [],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "person"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-yuuta-no-tomodachi",
+      "sentence": "たけしはゆうたの友達です。",
+      "sentence_furigana": "たけしはゆうたのともだちです。",
+      "translation": "Takeshi is Yuuta's friend.",
+      "breakdown": [
+        {
+          "text": "たけし",
+          "meaning": "Takeshi"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "ゆうた",
+          "meaning": "Yuuta"
+        },
+        {
+          "text": "の",
+          "meaning": "relationship marker"
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend",
+          "card_id": "word-tomodachi"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A の B — noun relationship / possession",
+          "grammar_point_id": "grammar-a-no-b"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "relationship"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-anna-maria-friend",
+      "sentence": "アンナはマリアの友達です。",
+      "sentence_furigana": "アンナはマリアのともだちです。",
+      "translation": "Anna is Maria's friend.",
+      "breakdown": [
+        {
+          "text": "アンナ",
+          "meaning": "Anna"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "マリア",
+          "meaning": "Maria"
+        },
+        {
+          "text": "の",
+          "meaning": "relationship marker"
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend",
+          "card_id": "word-tomodachi"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A の B — noun relationship / possession",
+          "grammar_point_id": "grammar-a-no-b"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "relationship"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-kanojo-mo-gakusei",
+      "sentence": "彼女も学生です。",
+      "sentence_furigana": "かのじょもがくせいです。",
+      "translation": "She is also a student.",
+      "breakdown": [
+        {
+          "text": "彼女",
+          "reading": "かのじょ",
+          "meaning": "she"
+        },
+        {
+          "text": "も",
+          "meaning": "also"
+        },
+        {
+          "text": "学生",
+          "reading": "がくせい",
+          "meaning": "student"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "彼女",
+          "reading": "かのじょ",
+          "meaning": "she",
+          "card_id": "word-kanojo"
+        },
+        {
+          "text": "学生",
+          "reading": "がくせい",
+          "meaning": "student",
+          "card_id": "word-gakusei"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "も — also / too",
+          "grammar_point_id": "grammar-mo"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "also",
+        "student"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-takeshi-mo-nihonjin",
+      "sentence": "たけしも日本人です。",
+      "sentence_furigana": "たけしもにほんじんです。",
+      "translation": "Takeshi is also Japanese.",
+      "breakdown": [
+        {
+          "text": "たけし",
+          "meaning": "Takeshi"
+        },
+        {
+          "text": "も",
+          "meaning": "also"
+        },
+        {
+          "text": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Japanese person"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [],
+      "grammar": [
+        {
+          "title": "も — also / too",
+          "grammar_point_id": "grammar-mo"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "also",
+        "nationality"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-watashitachi-mexican",
+      "sentence": "私たちはメキシコ人です。",
+      "sentence_furigana": "わたしたちはメキシコじんです。",
+      "translation": "We are Mexican.",
+      "breakdown": [
+        {
+          "text": "私たち",
+          "reading": "わたしたち",
+          "meaning": "we"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "メキシコ人",
+          "reading": "メキシコじん",
+          "meaning": "Mexican people"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "私たち",
+          "reading": "わたしたち",
+          "meaning": "we",
+          "card_id": "word-watashitachi"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "～たち — making a group",
+          "grammar_point_id": "grammar-tachi"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "group",
+        "nationality"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-karetachi-mexican",
+      "sentence": "彼たちはメキシコ人です。",
+      "sentence_furigana": "かれたちはメキシコじんです。",
+      "translation": "They are Mexican.",
+      "breakdown": [
+        {
+          "text": "彼",
+          "reading": "かれ",
+          "meaning": "he"
+        },
+        {
+          "text": "たち",
+          "meaning": "group suffix"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "メキシコ人",
+          "reading": "メキシコじん",
+          "meaning": "Mexican people"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "彼",
+          "reading": "かれ",
+          "meaning": "he",
+          "card_id": "word-kare"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "～たち — making a group",
+          "grammar_point_id": "grammar-tachi"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "group"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-takeshi-friend-question",
+      "sentence": "たけしはゆうたの友達ですか。",
+      "sentence_furigana": "たけしはゆうたのともだちですか。",
+      "translation": "Is Takeshi Yuuta's friend?",
+      "breakdown": [
+        {
+          "text": "たけし",
+          "meaning": "Takeshi"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "ゆうた",
+          "meaning": "Yuuta"
+        },
+        {
+          "text": "の",
+          "meaning": "relationship marker"
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "text": "ですか。",
+          "meaning": "polite question"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend",
+          "card_id": "word-tomodachi"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A の B — noun relationship / possession",
+          "grammar_point_id": "grammar-a-no-b"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "question",
+        "relationship"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-anna-not-yuuta-friend",
+      "sentence": "アンナはゆうたの友達じゃないです。",
+      "sentence_furigana": "アンナはゆうたのともだちじゃないです。",
+      "translation": "Anna is not Yuuta's friend.",
+      "breakdown": [
+        {
+          "text": "アンナ",
+          "meaning": "Anna"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "ゆうた",
+          "meaning": "Yuuta"
+        },
+        {
+          "text": "の",
+          "meaning": "relationship marker"
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "text": "じゃないです。",
+          "meaning": "is not"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend",
+          "card_id": "word-tomodachi"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A の B — noun relationship / possession",
+          "grammar_point_id": "grammar-a-no-b"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "negative",
+        "relationship",
+        "added in 1.1"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-dare-no-friend",
+      "sentence": "たけしは誰の友達ですか。",
+      "sentence_furigana": "たけしはだれのともだちですか。",
+      "translation": "Whose friend is Takeshi?",
+      "breakdown": [
+        {
+          "text": "たけし",
+          "meaning": "Takeshi"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "誰",
+          "reading": "だれ",
+          "meaning": "who"
+        },
+        {
+          "text": "の",
+          "meaning": "relationship marker"
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "text": "ですか。",
+          "meaning": "polite question"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "誰",
+          "reading": "だれ",
+          "meaning": "who",
+          "card_id": "word-dare"
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend",
+          "card_id": "word-tomodachi"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "だれの B ですか — asking whose",
+          "grammar_point_id": "grammar-dare-no"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "question",
+        "relationship"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-yuuta-friend-answer",
+      "sentence": "ゆうたの友達です。",
+      "sentence_furigana": "ゆうたのともだちです。",
+      "translation": "(He) is Yuuta's friend.",
+      "breakdown": [
+        {
+          "text": "ゆうた",
+          "meaning": "Yuuta"
+        },
+        {
+          "text": "の",
+          "meaning": "relationship marker"
+        },
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "友達",
+          "reading": "ともだち",
+          "meaning": "friend",
+          "card_id": "word-tomodachi"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "だれの B ですか — asking whose",
+          "grammar_point_id": "grammar-dare-no"
+        },
+        {
+          "title": "A の B — noun relationship / possession",
+          "grammar_point_id": "grammar-a-no-b"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "answer",
+        "relationship"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-takeshi-man",
+      "sentence": "たけしは男の人です。",
+      "sentence_furigana": "たけしはおとこのひとです。",
+      "translation": "Takeshi is a man.",
+      "breakdown": [
+        {
+          "text": "たけし",
+          "meaning": "Takeshi"
+        },
+        {
+          "text": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "男の人",
+          "reading": "おとこのひと",
+          "meaning": "man / male person"
+        },
+        {
+          "text": "です。",
+          "meaning": "polite identification"
+        }
+      ],
+      "vocabulary": [
+        {
+          "text": "男の人",
+          "reading": "おとこのひと",
+          "meaning": "man",
+          "card_id": "word-otoko-no-hito"
+        }
+      ],
+      "grammar": [],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "person",
+        "added in 1.1"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 2"
+      }
+    },
+    {
+      "id": "sentence-l3-origin-question",
+      "sentence": "マリアさんはどこの出身ですか。",
+      "sentence_furigana": "マリアさんはどこのしゅっしんですか。",
+      "translation": "Where is Maria from?",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "出身",
+          "reading": "しゅっしん",
+          "meaning": "place of origin",
+          "card_id": "word-shusshin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "どこの出身ですか — asking someone's origin",
+          "grammar_point_id": "grammar-dokono-shusshin"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "question",
+        "origin"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l3-guadalajara-origin",
+      "sentence": "グアダラハラ出身です。",
+      "sentence_furigana": "グアダラハラしゅっしんです。",
+      "translation": "I'm from Guadalajara.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "グアダラハラ",
+          "reading": "グアダラハラ",
+          "meaning": "Guadalajara",
+          "card_id": "word-guadalajara"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "～出身です — saying where someone is from",
+          "grammar_point_id": "grammar-shusshin-desu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "origin"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l3-guadalajara-mexico",
+      "sentence": "グアダラハラはメキシコにあります。",
+      "sentence_furigana": "グアダラハラはメキシコにあります。",
+      "translation": "Guadalajara is in Mexico.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "グアダラハラ",
+          "reading": "グアダラハラ",
+          "meaning": "Guadalajara",
+          "card_id": "word-guadalajara"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B に あります — locating a place",
+          "grammar_point_id": "grammar-place-ni-arimasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "location"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l3-anna-sydney",
+      "sentence": "アンナさんはシドニー出身です。",
+      "sentence_furigana": "アンナさんはシドニーしゅっしんです。",
+      "translation": "Anna is from Sydney.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "シドニー",
+          "reading": "シドニー",
+          "meaning": "Sydney",
+          "card_id": "word-sydney"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "～出身です — saying where someone is from",
+          "grammar_point_id": "grammar-shusshin-desu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "origin"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l3-sydney-australia",
+      "sentence": "シドニーはオーストラリアにあります。",
+      "sentence_furigana": "シドニーはオーストラリアにあります。",
+      "translation": "Sydney is in Australia.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "オーストラリア",
+          "reading": "オーストラリア",
+          "meaning": "Australia",
+          "card_id": "word-australia"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B に あります — locating a place",
+          "grammar_point_id": "grammar-place-ni-arimasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "location"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l3-tokyo-japan",
+      "sentence": "東京は日本にあります。",
+      "sentence_furigana": "とうきょうはにほんにあります。",
+      "translation": "Tokyo is in Japan.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "東京",
+          "reading": "とうきょう",
+          "meaning": "Tokyo",
+          "card_id": "word-tokyo"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B に あります — locating a place",
+          "grammar_point_id": "grammar-place-ni-arimasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "location"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l3-mexico-origin-question",
+      "sentence": "マリアさんはメキシコ出身ですか。",
+      "sentence_furigana": "マリアさんはメキシコしゅっしんですか。",
+      "translation": "Is Maria from Mexico?",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "出身",
+          "reading": "しゅっしん",
+          "meaning": "place of origin",
+          "card_id": "word-shusshin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "～出身です — saying where someone is from",
+          "grammar_point_id": "grammar-shusshin-desu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "question",
+        "origin"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l3-not-japan-origin",
+      "sentence": "日本出身じゃないです。",
+      "sentence_furigana": "にほんしゅっしんじゃないです。",
+      "translation": "I'm not from Japan.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "出身",
+          "reading": "しゅっしん",
+          "meaning": "place of origin",
+          "card_id": "word-shusshin"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "～出身です — saying where someone is from",
+          "grammar_point_id": "grammar-shusshin-desu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "negative",
+        "origin"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l3-mexico-where",
+      "sentence": "メキシコのどこですか。",
+      "sentence_furigana": "メキシコのどこですか。",
+      "translation": "Where in Mexico?",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "どこ",
+          "reading": "どこ",
+          "meaning": "where",
+          "card_id": "word-doko"
+        }
+      ],
+      "grammar": [],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "question",
+        "place"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l3-paris-france",
+      "sentence": "パリはフランスにあります。",
+      "sentence_furigana": "パリはフランスにあります。",
+      "translation": "Paris is in France.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "パリ",
+          "reading": "パリ",
+          "meaning": "Paris",
+          "card_id": "word-paris"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B に あります — locating a place",
+          "grammar_point_id": "grammar-place-ni-arimasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "location"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l3-rome-italy",
+      "sentence": "ローマはイタリアにあります。",
+      "sentence_furigana": "ローマはイタリアにあります。",
+      "translation": "Rome is in Italy.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "ローマ",
+          "reading": "ローマ",
+          "meaning": "Rome",
+          "card_id": "word-rome"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B に あります — locating a place",
+          "grammar_point_id": "grammar-place-ni-arimasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "location"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l3-shanghai-china",
+      "sentence": "上海は中国にあります。",
+      "sentence_furigana": "しゃんはいはちゅうごくにあります。",
+      "translation": "Shanghai is in China.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "上海",
+          "reading": "しゃんはい",
+          "meaning": "Shanghai",
+          "card_id": "word-shanghai"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B に あります — locating a place",
+          "grammar_point_id": "grammar-place-ni-arimasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "location"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l3-london-uk",
+      "sentence": "ロンドンはイギリスにあります。",
+      "sentence_furigana": "ロンドンはイギリスにあります。",
+      "translation": "London is in the United Kingdom.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "ロンドン",
+          "reading": "ロンドン",
+          "meaning": "London",
+          "card_id": "word-london"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "A は B に あります — locating a place",
+          "grammar_point_id": "grammar-place-ni-arimasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "location"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 3"
+      }
+    },
+    {
+      "id": "sentence-l4-desk-exists",
+      "sentence": "教室に机があります。",
+      "sentence_furigana": "きょうしつにつくえがあります。",
+      "translation": "There is a desk in the classroom.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "机",
+          "reading": "つくえ",
+          "meaning": "desk",
+          "card_id": "word-tsukue"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Place に Thing が あります — saying something exists",
+          "grammar_point_id": "grammar-place-ni-thing-ga-arimasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "object"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    },
+    {
+      "id": "sentence-l4-book-exists",
+      "sentence": "教室に本があります。",
+      "sentence_furigana": "きょうしつにほんがあります。",
+      "translation": "There is a book in the classroom.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "本",
+          "reading": "ほん",
+          "meaning": "book",
+          "card_id": "word-hon"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Place に Thing が あります — saying something exists",
+          "grammar_point_id": "grammar-place-ni-thing-ga-arimasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "object"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    },
+    {
+      "id": "sentence-l4-bag-also",
+      "sentence": "教室にかばんもあります。",
+      "sentence_furigana": "きょうしつにかばんもあります。",
+      "translation": "There is also a bag in the classroom.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "かばん",
+          "reading": "かばん",
+          "meaning": "bag",
+          "card_id": "word-kaban"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Place に Thing が あります — saying something exists",
+          "grammar_point_id": "grammar-place-ni-thing-ga-arimasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "also"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    },
+    {
+      "id": "sentence-l4-no-tv",
+      "sentence": "教室にテレビがありません。",
+      "sentence_furigana": "きょうしつにテレビがありません。",
+      "translation": "There is no TV in the classroom.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "テレビ",
+          "reading": "テレビ",
+          "meaning": "TV",
+          "card_id": "word-terebi"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Place に Thing が あります — saying something exists",
+          "grammar_point_id": "grammar-place-ni-thing-ga-arimasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "negative"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    },
+    {
+      "id": "sentence-l4-no-picture",
+      "sentence": "教室に絵がありません。",
+      "sentence_furigana": "きょうしつにえがありません。",
+      "translation": "There is no picture in the classroom.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "絵",
+          "reading": "え",
+          "meaning": "picture",
+          "card_id": "word-e"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Place に Thing が あります — saying something exists",
+          "grammar_point_id": "grammar-place-ni-thing-ga-arimasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "negative"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    },
+    {
+      "id": "sentence-l4-student-exists",
+      "sentence": "教室に学生がいます。",
+      "sentence_furigana": "きょうしつにがくせいがいます。",
+      "translation": "There is a student in the classroom.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "学生",
+          "reading": "がくせい",
+          "meaning": "student",
+          "card_id": "word-gakusei"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Place に Person が います — saying someone exists/is present",
+          "grammar_point_id": "grammar-place-ni-person-ga-imasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "person"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    },
+    {
+      "id": "sentence-l4-italian-student",
+      "sentence": "教室にイタリア人の学生がいます。",
+      "sentence_furigana": "きょうしつにイタリアじんのがくせいがいます。",
+      "translation": "There is an Italian student in the classroom.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "イタリア人",
+          "reading": "イタリアじん",
+          "meaning": "Italian person",
+          "card_id": "word-italian-person"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Place に Person が います — saying someone exists/is present",
+          "grammar_point_id": "grammar-place-ni-person-ga-imasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "person"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    },
+    {
+      "id": "sentence-l4-british-student",
+      "sentence": "教室にイギリス人の学生もいます。",
+      "sentence_furigana": "きょうしつにイギリスじんのがくせいもいます。",
+      "translation": "There is also a British student in the classroom.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "イギリス人",
+          "reading": "イギリスじん",
+          "meaning": "British person",
+          "card_id": "word-british-person"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Place に Person が います — saying someone exists/is present",
+          "grammar_point_id": "grammar-place-ni-person-ga-imasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "person",
+        "also"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    },
+    {
+      "id": "sentence-l4-teacher-also",
+      "sentence": "教室に先生もいます。",
+      "sentence_furigana": "きょうしつにせんせいもいます。",
+      "translation": "There is also a teacher in the classroom.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher",
+          "card_id": "word-sensei"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Place に Person が います — saying someone exists/is present",
+          "grammar_point_id": "grammar-place-ni-person-ga-imasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "person",
+        "also"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    },
+    {
+      "id": "sentence-l4-no-teacher",
+      "sentence": "教室に先生がいません。",
+      "sentence_furigana": "きょうしつにせんせいがいません。",
+      "translation": "There is no teacher in the classroom.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "先生",
+          "reading": "せんせい",
+          "meaning": "teacher",
+          "card_id": "word-sensei"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Place に Person が います — saying someone exists/is present",
+          "grammar_point_id": "grammar-place-ni-person-ga-imasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "negative",
+        "person"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    },
+    {
+      "id": "sentence-l4-no-australian-student",
+      "sentence": "教室にオーストラリア人の学生がいません。",
+      "sentence_furigana": "きょうしつにオーストラリアじんのがくせいがいません。",
+      "translation": "There is no Australian student in the classroom.",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "オーストラリア人",
+          "reading": "オーストラリアじん",
+          "meaning": "Australian person",
+          "card_id": "word-australian-person"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Place に Person が います — saying someone exists/is present",
+          "grammar_point_id": "grammar-place-ni-person-ga-imasu"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "classroom",
+        "negative",
+        "person"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    },
+    {
+      "id": "sentence-l4-what-exists",
+      "sentence": "教室に何がありますか。",
+      "sentence_furigana": "きょうしつになにがありますか。",
+      "translation": "What is in the classroom?",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "何",
+          "reading": "なに",
+          "meaning": "what",
+          "card_id": "word-nani"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "何が / 誰が — asking what or who is there",
+          "grammar_point_id": "grammar-nani-dare-ga"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "question",
+        "classroom"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    },
+    {
+      "id": "sentence-l4-who-exists",
+      "sentence": "教室に誰がいますか。",
+      "sentence_furigana": "きょうしつにだれがいますか。",
+      "translation": "Who is in the classroom?",
+      "breakdown": [],
+      "vocabulary": [
+        {
+          "text": "誰",
+          "reading": "だれ",
+          "meaning": "who",
+          "card_id": "word-dare"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "何が / 誰が — asking what or who is there",
+          "grammar_point_id": "grammar-nani-dare-ga"
+        }
+      ],
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "question",
+        "classroom"
+      ],
+      "source": {
+        "type": "manual",
+        "label": "Lesson 4"
+      }
+    }
+  ]
+}
