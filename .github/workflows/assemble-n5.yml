@@ -22,11 +22,9 @@ jobs:
         run: |
           python - <<'PY'
           import base64, json
-          parts = []
-          for path in (".tmp/course-part1.b64", ".tmp/course-part2.b64"):
-              encoded = open(path, encoding="utf-8").read().strip()
-              parts.append(base64.b64decode(encoded, validate=True))
-          payload = b"".join(parts).decode("utf-8")
+          encoded = "".join(open(path, encoding="utf-8").read().strip() for path in (".tmp/course-part1.b64", ".tmp/course-part2.b64"))
+          encoded += "=" * (-len(encoded) % 4)
+          payload = base64.b64decode(encoded, validate=True).decode("utf-8")
           course = json.loads(payload)
           assert course["schema_version"] == 1
           assert course["course_id"] == "japanese-jlpt-n5"
