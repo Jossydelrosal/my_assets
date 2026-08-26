@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - feature/marble-courses
+    paths:
+      - .tmp/n5-ready
 
 permissions:
   contents: write
@@ -16,35 +18,60 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: feature/marble-courses
-      - name: Write combined N5 course and catalog metadata
-        env:
-          N5_GZIP_BASE64: >-
-            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
+      - name: Assemble and validate Japanese N5 Lessons 1-4
         run: |
+          cat .tmp/n5-*.b64 > /tmp/n5.b64
           python - <<'PY'
-          import base64, gzip, json, os
-          payload = gzip.decompress(base64.b64decode(os.environ["N5_GZIP_BASE64"])).decode("utf-8")
+          import base64, gzip, hashlib, json
+          encoded = open("/tmp/n5.b64", encoding="utf-8").read()
+          assert len(encoded) == 11344, f"Unexpected payload length: {len(encoded)}"
+          compressed = base64.b64decode(encoded, validate=True)
+          assert hashlib.sha256(compressed).hexdigest() == "ca015101a3877d476d3490ab1fc7891d11e696a28edff55a22de80f33ac4dd85"
+          payload = gzip.decompress(compressed).decode("utf-8")
+          course = json.loads(payload)
+          assert course["course_id"] == "japanese-jlpt-n5"
+          assert course["version"] == "1.1.0"
+          assert (len(course["cards"]), len(course["grammar"]), len(course["sentences"])) == (52, 14, 51)
+          for domain in ("cards", "grammar", "sentences"):
+              ids = [item["id"] for item in course[domain]]
+              assert len(ids) == len(set(ids)), f"Duplicate IDs in {domain}"
+              scopes = {n: 0 for n in range(1, 5)}
+              for item in course[domain]:
+                  tags = item.get("tags", [])
+                  assert "course:japanese" in tags and "jlpt:N5" in tags
+                  for n in scopes:
+                      scopes[n] += f"lesson:{n}" in tags
+              assert all(scopes.values()), f"Missing lesson scope in {domain}: {scopes}"
+          card_ids = {item["id"] for item in course["cards"]}
+          grammar_ids = {item["id"] for item in course["grammar"]}
+          for sentence in course["sentences"]:
+              for vocab in sentence.get("vocabulary", []):
+                  if vocab.get("card_id"):
+                      assert vocab["card_id"] in card_ids
+              for grammar in sentence.get("grammar", []):
+                  if grammar.get("grammar_point_id"):
+                      assert grammar["grammar_point_id"] in grammar_ids
           with open("courses/japanese-jlpt-n5/course.json", "w", encoding="utf-8") as f:
               f.write(payload)
           path = "courses/index.json"
           with open(path, encoding="utf-8") as f:
-              data = json.load(f)
-          for course in data["courses"]:
-              if course["id"] == "japanese-jlpt-n5":
-                  course["description"] = "JLPT N5 course deck containing Japanese Lessons 1–4, organized by structured lesson tags for focused study."
-                  course["topic"] = "Introductions, friends, origins & classroom"
-                  course["version"] = "1.1.0"
-                  course["tags"] = ["JLPT N5", "Lesson 1", "Lesson 2", "Lesson 3", "Lesson 4", "beginner"]
-                  course["counts"] = {"cards": 52, "grammar": 14, "sentences": 51}
+              catalog = json.load(f)
+          for entry in catalog["courses"]:
+              if entry["id"] == "japanese-jlpt-n5":
+                  entry["description"] = "JLPT N5 course deck containing Japanese Lessons 1–4, organized by structured lesson tags for focused study."
+                  entry["topic"] = "Introductions, friends, origins & classroom"
+                  entry["version"] = "1.1.0"
+                  entry["tags"] = ["JLPT N5", "Lesson 1", "Lesson 2", "Lesson 3", "Lesson 4", "beginner"]
+                  entry["counts"] = {"cards": 52, "grammar": 14, "sentences": 51}
           with open(path, "w", encoding="utf-8") as f:
-              json.dump(data, f, ensure_ascii=False, indent=2)
+              json.dump(catalog, f, ensure_ascii=False, indent=2)
               f.write("\n")
           PY
-      - name: Remove temporary workflow and commit generated content
+      - name: Commit generated content and remove staging transport
         run: |
-          rm .github/workflows/assemble-n5.yml
+          rm -rf .tmp .github/workflows/assemble-n5.yml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add courses/japanese-jlpt-n5/course.json courses/index.json .github/workflows/assemble-n5.yml
+          git add -A
           git commit -m "Add Japanese N5 Lessons 3 and 4"
           git push origin HEAD:feature/marble-courses
