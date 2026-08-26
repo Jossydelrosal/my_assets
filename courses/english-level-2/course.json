@@ -14,7 +14,7 @@
       "sentence": "I'm happy.",
       "sentence_furigana": "",
       "sentence_translation": "うれしいです。",
-      "image": "../english-unit-1-lesson-1/images/Happy.jpg",
+      "image": "images/Happy.jpg",
       "tags": ["course:english", "level:2", "unit:1", "lesson:1", "feeling", "adjective"]
     },
     {
@@ -26,7 +26,7 @@
       "sentence": "I'm sad.",
       "sentence_furigana": "",
       "sentence_translation": "かなしいです。",
-      "image": "../english-unit-1-lesson-1/images/Sad.jpg",
+      "image": "images/Sad.jpg",
       "tags": ["course:english", "level:2", "unit:1", "lesson:1", "feeling", "adjective"]
     },
     {
@@ -38,7 +38,7 @@
       "sentence": "I'm hot.",
       "sentence_furigana": "",
       "sentence_translation": "暑いです。",
-      "image": "../english-unit-1-lesson-1/images/Hot.jpg",
+      "image": "images/Hot.jpg",
       "tags": ["course:english", "level:2", "unit:1", "lesson:1", "state", "adjective"]
     },
     {
@@ -50,7 +50,7 @@
       "sentence": "I'm cold.",
       "sentence_furigana": "",
       "sentence_translation": "寒いです。",
-      "image": "../english-unit-1-lesson-1/images/Cold.jpg",
+      "image": "images/Cold.jpg",
       "tags": ["course:english", "level:2", "unit:1", "lesson:1", "state", "adjective"]
     },
     {
@@ -62,7 +62,7 @@
       "sentence": "I'm hungry.",
       "sentence_furigana": "",
       "sentence_translation": "おなかがすいています。",
-      "image": "../english-unit-1-lesson-1/images/Hungry.jpg",
+      "image": "images/Hungry.jpg",
       "tags": ["course:english", "level:2", "unit:1", "lesson:1", "state", "adjective"]
     },
     {
@@ -74,7 +74,7 @@
       "sentence": "I'm thirsty.",
       "sentence_furigana": "",
       "sentence_translation": "のどがかわいています。",
-      "image": "../english-unit-1-lesson-1/images/Thirsty.jpg",
+      "image": "images/Thirsty.jpg",
       "tags": ["course:english", "level:2", "unit:1", "lesson:1", "state", "adjective"]
     }
   ],
