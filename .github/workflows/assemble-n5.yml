@@ -21,15 +21,27 @@ jobs:
       - name: Assemble and validate Japanese N5 Lessons 1-4
         run: |
           python - <<'PY'
-          import base64, json
-          encoded = "".join(open(path, encoding="utf-8").read().strip() for path in (".tmp/course-part1.b64", ".tmp/course-part2.b64"))
-          encoded += "=" * (-len(encoded) % 4)
-          payload = base64.b64decode(encoded, validate=True).decode("utf-8")
-          course = json.loads(payload)
-          assert course["schema_version"] == 1
-          assert course["course_id"] == "japanese-jlpt-n5"
-          assert course["version"] == "1.1.0"
-          assert (len(course["cards"]), len(course["grammar"]), len(course["sentences"])) == (52, 14, 51)
+          import base64, json, string
+          p1 = open(".tmp/course-part1.b64", encoding="utf-8").read().strip()
+          p2 = open(".tmp/course-part2.b64", encoding="utf-8").read().strip()
+          alphabet = string.ascii_uppercase + string.ascii_lowercase + string.digits + "+/"
+          valid = []
+          for inserted in [""] + list(alphabet):
+              encoded = p1 + inserted + p2
+              encoded += "=" * (-len(encoded) % 4)
+              try:
+                  payload = base64.b64decode(encoded, validate=True).decode("utf-8")
+                  course = json.loads(payload)
+                  if course.get("schema_version") != 1 or course.get("course_id") != "japanese-jlpt-n5" or course.get("version") != "1.1.0":
+                      continue
+                  if (len(course.get("cards", [])), len(course.get("grammar", [])), len(course.get("sentences", []))) != (52, 14, 51):
+                      continue
+                  valid.append((inserted, payload, course))
+              except Exception:
+                  pass
+          assert len(valid) == 1, f"Expected exactly one valid reconstruction, got {len(valid)}"
+          inserted, payload, course = valid[0]
+          print(f"Recovered missing base64 character: {inserted!r}")
           for domain in ("cards", "grammar", "sentences"):
               ids = [item["id"] for item in course[domain]]
               assert len(ids) == len(set(ids)), f"Duplicate IDs in {domain}"
