@@ -2,36 +2,29 @@
   "schema_version": 1,
   "courses": [
     {
-      "id": "japanese-lesson-1-introductions",
-      "title": "Japanese Lesson 1 — Introductions & Nationalities",
-      "description": "Lesson 1 from the Japanese course: greetings, self-introductions, nationality statements, negation, and basic questions about where someone is from.",
-      "level": "Beginner",
-      "topic": "Introductions & nationalities",
+      "id": "japanese-jlpt-n5",
+      "title": "Japanese — JLPT N5",
+      "description": "JLPT N5 course deck containing the current Japanese Lessons 1–2, organized by structured lesson tags for focused study.",
+      "level": "JLPT N5",
+      "topic": "Introductions, friends & relationships",
       "language": "Japanese",
-      "version": "1.1.0",
-      "path": "japanese-lesson-1-introductions/course.json",
-      "tags": ["Lesson 1", "beginner", "introductions", "nationalities"],
-      "counts": {
-        "cards": 16,
-        "grammar": 4,
-        "sentences": 11
-      }
+      "version": "1.0.0",
+      "path": "japanese-jlpt-n5/course.json",
+      "tags": ["JLPT N5", "Lesson 1", "Lesson 2", "beginner"],
+      "counts": { "cards": 25, "grammar": 8, "sentences": 25 }
     },
     {
-      "id": "japanese-lesson-2-friends",
-      "title": "Japanese Lesson 2 — Friends & Relationships",
-      "description": "Lesson 2 from the Japanese course: introducing friends, person words and pronouns, student vocabulary, A の B relationships, も for 'also', ～たち groups, and asking whose friend someone is.",
-      "level": "Beginner",
-      "topic": "Friends & relationships",
-      "language": "Japanese",
-      "version": "1.1.0",
-      "path": "japanese-lesson-2-friends/course.json",
-      "tags": ["Lesson 2", "beginner", "friends", "relationships", "pronouns"],
-      "counts": {
-        "cards": 9,
-        "grammar": 4,
-        "sentences": 14
-      }
+      "id": "english-level-2",
+      "title": "English — Level 2",
+      "description": "Level 2 English book deck. Current Unit 1 Lesson 1 covers feelings and physical states with happy, sad, hot, cold, hungry, and thirsty using I'm, I'm not, and Are you...?",
+      "level": "Level 2",
+      "topic": "Feelings & states",
+      "language": "English",
+      "version": "1.0.0",
+      "path": "english-level-2/course.json",
+      "tags": ["Level 2", "Unit 1", "Lesson 1", "feelings", "adjectives"],
+      "counts": { "cards": 6, "grammar": 3, "sentences": 18 },
+      "access": { "mode": "code", "code": "sdtta/eidf" }
     }
   ]
 }
