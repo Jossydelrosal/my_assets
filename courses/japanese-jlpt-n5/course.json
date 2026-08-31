@@ -240,24 +240,6 @@
       ]
     },
     {
-      "id": "word-dokono-hito",
-      "target": "どこの人ですか",
-      "target_furigana": "どこのひとですか",
-      "english_word": "Where are you from?",
-      "definition": "The lesson's question for asking which country or place someone is from.",
-      "sentence": "マリアさんはどこの人ですか。",
-      "sentence_furigana": "マリアさんはどこのひとですか。",
-      "sentence_translation": "Where is Maria from?",
-      "tags": [
-        "course:japanese",
-        "jlpt:N5",
-        "lesson:1",
-        "question",
-        "phrase",
-        "lesson:3"
-      ]
-    },
-    {
       "id": "word-kochira",
       "target": "こちら",
       "target_furigana": "こちら",
