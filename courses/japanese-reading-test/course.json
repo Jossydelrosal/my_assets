@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "course_id": "japanese-reading-test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "language": "Japanese",
   "name": "Japanese Reading QA — Lesson 1",
   "cards": [
@@ -184,7 +184,7 @@
       "id": "reading-lesson-1-aki",
       "title": "Lesson 1 — アキの自己紹介",
       "language": "Japanese",
-      "tags": ["course:reading-test", "jlpt:N5", "lesson:1", "reading", "introduction"],
+      "tags": ["course:reading-test", "jlpt:N5", "lesson:1", "reading", "introduction", "qa:update-0.1.1"],
       "blocks": [{
         "id": "lesson-1-block-1",
         "source_markup": "[私|わたし]はアキと[言|い]います。大学[二年生|にねんせい]で、[文学部|ぶんがくぶ]で[日本語|にほんご]を[専攻|せんこう]しています。[私|わたし]は大阪の[出身|しゅっしん]です。[今|いま]は一人暮らしをしています。[趣味|しゅみ]は[写真|しゃしん]を[撮|と]ることです。"
