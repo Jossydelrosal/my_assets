@@ -27,11 +27,11 @@
     {
       "id": "japanese-reading-test",
       "title": "Japanese Reading QA — Lesson 1",
-      "description": "Staging-only schema v2 QA course derived from Japanese Course Outline Lesson 1. Tests Reading import, authored furigana, and cross-domain Vocabulary, Grammar, Sentence, and Reading references.",
+      "description": "Staging-only schema v2 QA course derived from Japanese Course Outline Lesson 1. Tests Reading import, authored furigana, cross-domain references, and safe course updates.",
       "level": "JLPT N5",
       "topic": "Self-introduction & origins",
       "language": "Japanese",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "path": "japanese-reading-test/course.json",
       "tags": [
         "JLPT N5",
