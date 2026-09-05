@@ -1,4 +1,42 @@
 {
   "schema_version": 2,
-  "courses": []
+  "courses": [
+    {
+      "id": "japanese-jlpt-n5",
+      "title": "Japanese — JLPT N5",
+      "description": "JLPT N5 course deck containing Japanese Lessons 1–4, organized by structured lesson tags for focused study.",
+      "level": "JLPT N5",
+      "topic": "Introductions, friends, origins & classroom",
+      "language": "Japanese",
+      "version": "1.1.1",
+      "path": "japanese-jlpt-n5/course.json",
+      "tags": ["JLPT N5", "Lesson 1", "Lesson 2", "Lesson 3", "Lesson 4", "beginner"],
+      "counts": {"cards": 51, "grammar": 14, "sentences": 51}
+    },
+    {
+      "id": "japanese-reading-test",
+      "title": "Japanese Reading QA — Lesson 1",
+      "description": "Staging-only schema v2 QA course derived from Japanese Course Outline Lesson 1. Tests Reading import, authored furigana, cross-domain references, and safe course updates.",
+      "level": "JLPT N5",
+      "topic": "Self-introduction & origins",
+      "language": "Japanese",
+      "version": "0.1.1",
+      "path": "japanese-reading-test/course.json",
+      "tags": ["JLPT N5", "Lesson 1", "reading", "QA"],
+      "counts": {"cards": 4, "grammar": 3, "sentences": 2, "readings": 1}
+    },
+    {
+      "id": "english-level-2",
+      "title": "English — Level 2",
+      "description": "Level 2 English book deck. Current Unit 1 Lesson 1 covers feelings and physical states with happy, sad, hot, cold, hungry, and thirsty using I'm, I'm not, and Are you...?",
+      "level": "Level 2",
+      "topic": "Feelings & states",
+      "language": "English",
+      "version": "1.0.0",
+      "path": "english-level-2/course.json",
+      "tags": ["Level 2", "Unit 1", "Lesson 1", "feelings", "adjectives"],
+      "counts": {"cards": 6, "grammar": 3, "sentences": 18},
+      "access": {"mode": "code", "code": "sdtta/eidf"}
+    }
+  ]
 }
