@@ -10,8 +10,19 @@
       "language": "Japanese",
       "version": "1.1.1",
       "path": "japanese-jlpt-n5/course.json",
-      "tags": ["JLPT N5", "Lesson 1", "Lesson 2", "Lesson 3", "Lesson 4", "beginner"],
-      "counts": {"cards": 51, "grammar": 14, "sentences": 51}
+      "tags": [
+        "JLPT N5",
+        "Lesson 1",
+        "Lesson 2",
+        "Lesson 3",
+        "Lesson 4",
+        "beginner"
+      ],
+      "counts": {
+        "cards": 51,
+        "grammar": 14,
+        "sentences": 51
+      }
     },
     {
       "id": "japanese-reading-test",
@@ -22,8 +33,18 @@
       "language": "Japanese",
       "version": "0.1.1",
       "path": "japanese-reading-test/course.json",
-      "tags": ["JLPT N5", "Lesson 1", "reading", "QA"],
-      "counts": {"cards": 4, "grammar": 3, "sentences": 2, "readings": 1}
+      "tags": [
+        "JLPT N5",
+        "Lesson 1",
+        "reading",
+        "QA"
+      ],
+      "counts": {
+        "cards": 4,
+        "grammar": 3,
+        "sentences": 2,
+        "readings": 1
+      }
     },
     {
       "id": "english-level-2",
@@ -34,9 +55,22 @@
       "language": "English",
       "version": "1.0.0",
       "path": "english-level-2/course.json",
-      "tags": ["Level 2", "Unit 1", "Lesson 1", "feelings", "adjectives"],
-      "counts": {"cards": 6, "grammar": 3, "sentences": 18},
-      "access": {"mode": "code", "code": "sdtta/eidf"}
+      "tags": [
+        "Level 2",
+        "Unit 1",
+        "Lesson 1",
+        "feelings",
+        "adjectives"
+      ],
+      "counts": {
+        "cards": 6,
+        "grammar": 3,
+        "sentences": 18
+      },
+      "access": {
+        "mode": "code",
+        "code": "sdtta/eidf"
+      }
     }
   ]
 }
