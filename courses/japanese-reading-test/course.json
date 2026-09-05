@@ -1,0 +1,201 @@
+{
+  "schema_version": 2,
+  "course_id": "japanese-reading-test",
+  "version": "0.1.0",
+  "language": "Japanese",
+  "name": "Japanese Reading QA — Lesson 1",
+  "cards": [
+    {
+      "id": "word-watashi",
+      "target": "私",
+      "target_furigana": "わたし",
+      "english_word": "I; me",
+      "sentence": "私はアキと言います。",
+      "sentence_furigana": "わたしはアキといいます。",
+      "sentence_translation": "My name is Aki.",
+      "definition": "A word used to refer to oneself.",
+      "image": "",
+      "image_prompt": "",
+      "word_audio": "",
+      "sentence_audio": "",
+      "tags": ["course:reading-test", "jlpt:N5", "lesson:1", "person"]
+    },
+    {
+      "id": "word-shusshin",
+      "target": "出身",
+      "target_furigana": "しゅっしん",
+      "english_word": "hometown; place of origin",
+      "sentence": "私は大阪の出身です。",
+      "sentence_furigana": "わたしはおおさかのしゅっしんです。",
+      "sentence_translation": "I am from Osaka.",
+      "definition": "The place someone is from.",
+      "image": "",
+      "image_prompt": "",
+      "word_audio": "",
+      "sentence_audio": "",
+      "tags": ["course:reading-test", "jlpt:N5", "lesson:1", "origin"]
+    },
+    {
+      "id": "word-hitorigurashi",
+      "target": "一人暮らし",
+      "target_furigana": "ひとりぐらし",
+      "english_word": "living alone",
+      "sentence": "今は一人暮らしをしています。",
+      "sentence_furigana": "いまはひとりぐらしをしています。",
+      "sentence_translation": "I live alone now.",
+      "definition": "Living by oneself.",
+      "image": "",
+      "image_prompt": "",
+      "word_audio": "",
+      "sentence_audio": "",
+      "tags": ["course:reading-test", "jlpt:N5", "lesson:1", "living"]
+    },
+    {
+      "id": "word-shumi",
+      "target": "趣味",
+      "target_furigana": "しゅみ",
+      "english_word": "hobby",
+      "sentence": "趣味は写真を撮ることです。",
+      "sentence_furigana": "しゅみはしゃしんをとることです。",
+      "sentence_translation": "My hobby is taking photos.",
+      "definition": "Something you like to do in your free time.",
+      "image": "",
+      "image_prompt": "",
+      "word_audio": "",
+      "sentence_audio": "",
+      "tags": ["course:reading-test", "jlpt:N5", "lesson:1", "hobby"]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "grammar-to-iimasu",
+      "title": "～と言います",
+      "type": "expression",
+      "input": ["Noun"],
+      "structure": "N + と言います",
+      "explanation": "Used when saying your name or what someone is called.",
+      "examples": [{
+        "sentence": "私はアキと言います。",
+        "translation": "My name is Aki.",
+        "breakdown": ["私", "は", "アキ", "と", "言います"]
+      }],
+      "tags": ["course:reading-test", "jlpt:N5", "lesson:1", "introduction"]
+    },
+    {
+      "id": "grammar-shusshin-desu",
+      "title": "～出身です",
+      "type": "expression",
+      "input": ["Noun"],
+      "structure": "Place + の出身です",
+      "explanation": "Used to say where someone is from.",
+      "examples": [{
+        "sentence": "私は大阪の出身です。",
+        "translation": "I am from Osaka.",
+        "breakdown": ["私", "は", "大阪", "の", "出身", "です"]
+      }],
+      "tags": ["course:reading-test", "jlpt:N5", "lesson:1", "origin"]
+    },
+    {
+      "id": "grammar-te-imasu-state",
+      "title": "～ています",
+      "type": "expression",
+      "input": ["Verb"],
+      "structure": "Verb[て] + います",
+      "explanation": "Used here to describe a continuing state or ongoing situation.",
+      "examples": [{
+        "sentence": "今、大学の寮に住んでいます。",
+        "translation": "I live in the university dorm now.",
+        "breakdown": ["今", "大学", "の", "寮", "に", "住んでいます"]
+      }],
+      "tags": ["course:reading-test", "jlpt:N5", "lesson:1", "state"]
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sentence-aki-name",
+      "sentence": "私はアキと言います。",
+      "sentence_furigana": "わたしはアキといいます。",
+      "translation": "My name is Aki.",
+      "literal_translation": "As for me, Aki is what I say I am called.",
+      "meaning_notes": "A polite self-introduction using ～と言います.",
+      "breakdown": [
+        {"text": "私", "reading": "わたし", "meaning": "I", "role": "topic"},
+        {"text": "は", "reading": "は", "meaning": "topic marker", "role": "particle"},
+        {"text": "アキ", "reading": "アキ", "meaning": "Aki", "role": "name"},
+        {"text": "と言います", "reading": "といいます", "meaning": "am called; say", "role": "grammar"}
+      ],
+      "vocabulary": [
+        {"text": "私", "reading": "わたし", "meaning": "I; me", "card_id": "word-watashi"}
+      ],
+      "grammar": [
+        {"title": "～と言います", "explanation": "Used to say one's name.", "grammar_point_id": "grammar-to-iimasu"}
+      ],
+      "image": "",
+      "image_prompt": "",
+      "sentence_audio": "",
+      "tags": ["course:reading-test", "jlpt:N5", "lesson:1", "introduction"],
+      "source": {
+        "type": "reading",
+        "source_id": "reading-lesson-1-aki",
+        "reading_block_id": "lesson-1-block-1",
+        "start_offset": 0,
+        "end_offset": 10,
+        "source_text": "私はアキと言います。"
+      }
+    },
+    {
+      "id": "sentence-aki-origin",
+      "sentence": "私は大阪の出身です。",
+      "sentence_furigana": "わたしはおおさかのしゅっしんです。",
+      "translation": "I am from Osaka.",
+      "literal_translation": "As for me, (my) origin is Osaka.",
+      "meaning_notes": "Uses ～出身です to state place of origin.",
+      "breakdown": [
+        {"text": "私", "reading": "わたし", "meaning": "I", "role": "topic"},
+        {"text": "は", "reading": "は", "meaning": "topic marker", "role": "particle"},
+        {"text": "大阪", "reading": "おおさか", "meaning": "Osaka", "role": "place"},
+        {"text": "の", "reading": "の", "meaning": "of; from", "role": "particle"},
+        {"text": "出身", "reading": "しゅっしん", "meaning": "place of origin", "role": "vocabulary"},
+        {"text": "です", "reading": "です", "meaning": "is", "role": "copula"}
+      ],
+      "vocabulary": [
+        {"text": "私", "reading": "わたし", "meaning": "I; me", "card_id": "word-watashi"},
+        {"text": "出身", "reading": "しゅっしん", "meaning": "place of origin", "card_id": "word-shusshin"}
+      ],
+      "grammar": [
+        {"title": "～出身です", "explanation": "Used to say where someone is from.", "grammar_point_id": "grammar-shusshin-desu"}
+      ],
+      "image": "",
+      "image_prompt": "",
+      "sentence_audio": "",
+      "tags": ["course:reading-test", "jlpt:N5", "lesson:1", "origin"],
+      "source": {
+        "type": "reading",
+        "source_id": "reading-lesson-1-aki",
+        "reading_block_id": "lesson-1-block-1",
+        "start_offset": 33,
+        "end_offset": 43,
+        "source_text": "私は大阪の出身です。"
+      }
+    }
+  ],
+  "readings": [
+    {
+      "id": "reading-lesson-1-aki",
+      "title": "Lesson 1 — アキの自己紹介",
+      "language": "Japanese",
+      "tags": ["course:reading-test", "jlpt:N5", "lesson:1", "reading", "introduction"],
+      "blocks": [{
+        "id": "lesson-1-block-1",
+        "source_markup": "[私|わたし]はアキと[言|い]います。大学[二年生|にねんせい]で、[文学部|ぶんがくぶ]で[日本語|にほんご]を[専攻|せんこう]しています。[私|わたし]は大阪の[出身|しゅっしん]です。[今|いま]は一人暮らしをしています。[趣味|しゅみ]は[写真|しゃしん]を[撮|と]ることです。"
+      }],
+      "links": [
+        {"id": "link-grammar-to-iimasu", "type": "grammar", "entity_id": "grammar-to-iimasu", "block_id": "lesson-1-block-1", "start_offset": 4, "end_offset": 9, "source_text": "と言います"},
+        {"id": "link-grammar-te-imasu", "type": "grammar", "entity_id": "grammar-te-imasu-state", "block_id": "lesson-1-block-1", "start_offset": 27, "end_offset": 32, "source_text": "しています"},
+        {"id": "link-grammar-shusshin", "type": "grammar", "entity_id": "grammar-shusshin-desu", "block_id": "lesson-1-block-1", "start_offset": 38, "end_offset": 42, "source_text": "出身です"},
+        {"id": "link-sentence-aki-name", "type": "sentence", "entity_id": "sentence-aki-name", "block_id": "lesson-1-block-1", "start_offset": 0, "end_offset": 10, "source_text": "私はアキと言います。"},
+        {"id": "link-sentence-aki-origin", "type": "sentence", "entity_id": "sentence-aki-origin", "block_id": "lesson-1-block-1", "start_offset": 33, "end_offset": 43, "source_text": "私は大阪の出身です。"}
+      ]
+    }
+  ]
+}
