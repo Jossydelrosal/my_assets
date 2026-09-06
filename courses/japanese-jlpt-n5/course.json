@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "course_id": "japanese-jlpt-n5",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "language": "Japanese",
   "name": "Japanese — JLPT N5",
   "cards": [
@@ -1309,6 +1309,390 @@
       "grammar": [{"title": "何が / 誰が — asking what or who is there", "grammar_point_id": "grammar-nani-dare-ga"}],
       "tags": ["course:japanese", "jlpt:N5", "lesson:4", "question", "classroom"],
       "source": {"type": "manual", "label": "Lesson 4"}
+    }
+  ],
+  "readings": [
+    {
+      "id": "reading-lesson-1-dialogue",
+      "title": "Lesson 1 — ゆうたとマリア",
+      "language": "Japanese",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:1",
+        "reading",
+        "dialogue"
+      ],
+      "blocks": [
+        {
+          "id": "lesson-1-dialogue-b1",
+          "source_markup": "ゆうた：こんにちは。ゆうたです。[日本人|にほんじん]です。"
+        },
+        {
+          "id": "lesson-1-dialogue-b2",
+          "source_markup": "マリア：こんにちは。マリアです。メキシコ[人|じん]です。"
+        },
+        {
+          "id": "lesson-1-dialogue-b3",
+          "source_markup": "ゆうた：よろしくおねがいします。"
+        },
+        {
+          "id": "lesson-1-dialogue-b4",
+          "source_markup": "マリア：よろしくおねがいします。"
+        }
+      ],
+      "links": [
+        {
+          "id": "reading-l1-link-1",
+          "type": "sentence",
+          "entity_id": "sentence-intro-yuuta",
+          "block_id": "lesson-1-dialogue-b1",
+          "start_offset": 4,
+          "end_offset": 16,
+          "source_text": "こんにちは。ゆうたです。"
+        },
+        {
+          "id": "reading-l1-link-2",
+          "type": "grammar",
+          "entity_id": "grammar-a-wa-b-desu",
+          "block_id": "lesson-1-dialogue-b1",
+          "start_offset": 16,
+          "end_offset": 21,
+          "source_text": "日本人です"
+        },
+        {
+          "id": "reading-l1-link-3",
+          "type": "grammar",
+          "entity_id": "grammar-a-wa-b-desu",
+          "block_id": "lesson-1-dialogue-b2",
+          "start_offset": 16,
+          "end_offset": 23,
+          "source_text": "メキシコ人です"
+        }
+      ]
+    },
+    {
+      "id": "reading-lesson-2-dialogue",
+      "title": "Lesson 2 — 友達を紹介する",
+      "language": "Japanese",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:2",
+        "reading",
+        "dialogue"
+      ],
+      "blocks": [
+        {
+          "id": "lesson-2-dialogue-b1",
+          "source_markup": "ゆうた：マリアさん、こちらはたけしです。[私|わたし]の[友達|ともだち]です。[彼|かれ]は[学生|がくせい]です。"
+        },
+        {
+          "id": "lesson-2-dialogue-b2",
+          "source_markup": "たけし：はじめまして。たけしです。ゆうたの[友達|ともだち]です。よろしくおねがいします。"
+        },
+        {
+          "id": "lesson-2-dialogue-b3",
+          "source_markup": "マリア：はじめまして。こちらはアンナです。[私|わたし]の[友達|ともだち]です。[彼女|かのじょ]も[学生|がくせい]です。"
+        },
+        {
+          "id": "lesson-2-dialogue-b4",
+          "source_markup": "アンナ：はじめまして。アンナです。よろしく。"
+        },
+        {
+          "id": "lesson-2-dialogue-b5",
+          "source_markup": "マリア：[私|わたし]たちはメキシコ人です。"
+        }
+      ],
+      "links": [
+        {
+          "id": "reading-l2-link-1",
+          "type": "sentence",
+          "entity_id": "sentence-kochira-takeshi",
+          "block_id": "lesson-2-dialogue-b1",
+          "start_offset": 10,
+          "end_offset": 20,
+          "source_text": "こちらはたけしです。"
+        },
+        {
+          "id": "reading-l2-link-2",
+          "type": "sentence",
+          "entity_id": "sentence-watashi-no-tomodachi",
+          "block_id": "lesson-2-dialogue-b1",
+          "start_offset": 20,
+          "end_offset": 27,
+          "source_text": "私の友達です。"
+        },
+        {
+          "id": "reading-l2-link-3",
+          "type": "sentence",
+          "entity_id": "sentence-kare-gakusei",
+          "block_id": "lesson-2-dialogue-b1",
+          "start_offset": 27,
+          "end_offset": 34,
+          "source_text": "彼は学生です。"
+        },
+        {
+          "id": "reading-l2-link-4",
+          "type": "sentence",
+          "entity_id": "sentence-watashi-no-tomodachi",
+          "block_id": "lesson-2-dialogue-b3",
+          "start_offset": 21,
+          "end_offset": 28,
+          "source_text": "私の友達です。"
+        },
+        {
+          "id": "reading-l2-link-5",
+          "type": "sentence",
+          "entity_id": "sentence-kanojo-mo-gakusei",
+          "block_id": "lesson-2-dialogue-b3",
+          "start_offset": 28,
+          "end_offset": 36,
+          "source_text": "彼女も学生です。"
+        },
+        {
+          "id": "reading-l2-link-6",
+          "type": "sentence",
+          "entity_id": "sentence-watashitachi-mexican",
+          "block_id": "lesson-2-dialogue-b5",
+          "start_offset": 4,
+          "end_offset": 16,
+          "source_text": "私たちはメキシコ人です。"
+        },
+        {
+          "id": "reading-l2-link-7",
+          "type": "grammar",
+          "entity_id": "grammar-a-no-b",
+          "block_id": "lesson-2-dialogue-b1",
+          "start_offset": 20,
+          "end_offset": 24,
+          "source_text": "私の友達"
+        },
+        {
+          "id": "reading-l2-link-8",
+          "type": "grammar",
+          "entity_id": "grammar-a-no-b",
+          "block_id": "lesson-2-dialogue-b3",
+          "start_offset": 21,
+          "end_offset": 25,
+          "source_text": "私の友達"
+        },
+        {
+          "id": "reading-l2-link-9",
+          "type": "grammar",
+          "entity_id": "grammar-mo",
+          "block_id": "lesson-2-dialogue-b3",
+          "start_offset": 28,
+          "end_offset": 35,
+          "source_text": "彼女も学生です"
+        },
+        {
+          "id": "reading-l2-link-10",
+          "type": "grammar",
+          "entity_id": "grammar-tachi",
+          "block_id": "lesson-2-dialogue-b5",
+          "start_offset": 4,
+          "end_offset": 7,
+          "source_text": "私たち"
+        }
+      ]
+    },
+    {
+      "id": "reading-lesson-3-dialogue",
+      "title": "Lesson 3 — 出身を話す",
+      "language": "Japanese",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:3",
+        "reading",
+        "dialogue"
+      ],
+      "blocks": [
+        {
+          "id": "lesson-3-dialogue-b1",
+          "source_markup": "アンナ：マリアさんはどこの[出身|しゅっしん]ですか。"
+        },
+        {
+          "id": "lesson-3-dialogue-b2",
+          "source_markup": "マリア：グアダラハラ[出身|しゅっしん]です。"
+        },
+        {
+          "id": "lesson-3-dialogue-b3",
+          "source_markup": "アンナ：グアダラハラはどこにありますか。"
+        },
+        {
+          "id": "lesson-3-dialogue-b4",
+          "source_markup": "マリア：メキシコにあります。アンナさんは？"
+        },
+        {
+          "id": "lesson-3-dialogue-b5",
+          "source_markup": "アンナ：シドニー[出身|しゅっしん]です。"
+        },
+        {
+          "id": "lesson-3-dialogue-b6",
+          "source_markup": "マリア：シドニーはどこにありますか。"
+        },
+        {
+          "id": "lesson-3-dialogue-b7",
+          "source_markup": "アンナ：オーストラリアにあります。"
+        }
+      ],
+      "links": [
+        {
+          "id": "reading-l3-link-1",
+          "type": "sentence",
+          "entity_id": "sentence-l3-origin-question",
+          "block_id": "lesson-3-dialogue-b1",
+          "start_offset": 4,
+          "end_offset": 19,
+          "source_text": "マリアさんはどこの出身ですか。"
+        },
+        {
+          "id": "reading-l3-link-2",
+          "type": "sentence",
+          "entity_id": "sentence-l3-guadalajara-origin",
+          "block_id": "lesson-3-dialogue-b2",
+          "start_offset": 4,
+          "end_offset": 15,
+          "source_text": "グアダラハラ出身です。"
+        },
+        {
+          "id": "reading-l3-link-3",
+          "type": "grammar",
+          "entity_id": "grammar-dokono-shusshin",
+          "block_id": "lesson-3-dialogue-b1",
+          "start_offset": 10,
+          "end_offset": 18,
+          "source_text": "どこの出身ですか"
+        },
+        {
+          "id": "reading-l3-link-4",
+          "type": "grammar",
+          "entity_id": "grammar-shusshin-desu",
+          "block_id": "lesson-3-dialogue-b2",
+          "start_offset": 4,
+          "end_offset": 14,
+          "source_text": "グアダラハラ出身です"
+        },
+        {
+          "id": "reading-l3-link-5",
+          "type": "grammar",
+          "entity_id": "grammar-place-ni-arimasu",
+          "block_id": "lesson-3-dialogue-b4",
+          "start_offset": 4,
+          "end_offset": 13,
+          "source_text": "メキシコにあります"
+        },
+        {
+          "id": "reading-l3-link-6",
+          "type": "grammar",
+          "entity_id": "grammar-shusshin-desu",
+          "block_id": "lesson-3-dialogue-b5",
+          "start_offset": 4,
+          "end_offset": 12,
+          "source_text": "シドニー出身です"
+        },
+        {
+          "id": "reading-l3-link-7",
+          "type": "grammar",
+          "entity_id": "grammar-place-ni-arimasu",
+          "block_id": "lesson-3-dialogue-b7",
+          "start_offset": 4,
+          "end_offset": 16,
+          "source_text": "オーストラリアにあります"
+        }
+      ]
+    },
+    {
+      "id": "reading-lesson-4-dialogue",
+      "title": "Lesson 4 — 教室に何がありますか",
+      "language": "Japanese",
+      "tags": [
+        "course:japanese",
+        "jlpt:N5",
+        "lesson:4",
+        "reading",
+        "dialogue"
+      ],
+      "blocks": [
+        {
+          "id": "lesson-4-dialogue-b1",
+          "source_markup": "マリア：[私|わたし]の[教室|きょうしつ]には[机|つくえ]があります。いすとかばんもあります。"
+        },
+        {
+          "id": "lesson-4-dialogue-b2",
+          "source_markup": "アンナ：[本|ほん]がありますか。"
+        },
+        {
+          "id": "lesson-4-dialogue-b3",
+          "source_markup": "マリア：はい、[本|ほん]があります。[私|わたし]の[教室|きょうしつ]にはイタリア[人|じん]の[学生|がくせい]がいます。イギリス[人|じん]の[学生|がくせい]もいます。"
+        },
+        {
+          "id": "lesson-4-dialogue-b4",
+          "source_markup": "アンナ：オーストラリア[人|じん]の[学生|がくせい]がいますか。"
+        },
+        {
+          "id": "lesson-4-dialogue-b5",
+          "source_markup": "マリア：いいえ、オーストラリア[人|じん]の[学生|がくせい]がいません。"
+        }
+      ],
+      "links": [
+        {
+          "id": "reading-l4-link-1",
+          "type": "grammar",
+          "entity_id": "grammar-place-ni-thing-ga-arimasu",
+          "block_id": "lesson-4-dialogue-b1",
+          "start_offset": 10,
+          "end_offset": 16,
+          "source_text": "机があります"
+        },
+        {
+          "id": "reading-l4-link-2",
+          "type": "grammar",
+          "entity_id": "grammar-place-ni-thing-ga-arimasu",
+          "block_id": "lesson-4-dialogue-b2",
+          "start_offset": 4,
+          "end_offset": 11,
+          "source_text": "本がありますか"
+        },
+        {
+          "id": "reading-l4-link-3",
+          "type": "grammar",
+          "entity_id": "grammar-place-ni-thing-ga-arimasu",
+          "block_id": "lesson-4-dialogue-b3",
+          "start_offset": 7,
+          "end_offset": 13,
+          "source_text": "本があります"
+        },
+        {
+          "id": "reading-l4-link-4",
+          "type": "grammar",
+          "entity_id": "grammar-place-ni-person-ga-imasu",
+          "block_id": "lesson-4-dialogue-b3",
+          "start_offset": 26,
+          "end_offset": 32,
+          "source_text": "学生がいます"
+        },
+        {
+          "id": "reading-l4-link-5",
+          "type": "grammar",
+          "entity_id": "grammar-place-ni-person-ga-imasu",
+          "block_id": "lesson-4-dialogue-b4",
+          "start_offset": 13,
+          "end_offset": 20,
+          "source_text": "学生がいますか"
+        },
+        {
+          "id": "reading-l4-link-6",
+          "type": "grammar",
+          "entity_id": "grammar-place-ni-person-ga-imasu",
+          "block_id": "lesson-4-dialogue-b5",
+          "start_offset": 17,
+          "end_offset": 24,
+          "source_text": "学生がいません"
+        }
+      ]
     }
   ]
 }
